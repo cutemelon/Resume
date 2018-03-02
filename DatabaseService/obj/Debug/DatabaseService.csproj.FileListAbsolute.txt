@@ -1,0 +1,14 @@
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\bin\Debug\DatabaseService.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\bin\Debug\DatabaseService.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\bin\Debug\DatabaseInterface.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\bin\Debug\Infrastructure.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\bin\Debug\Models.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\bin\Debug\log4net.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\bin\Debug\RTF.Data.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\bin\Debug\DatabaseInterface.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\bin\Debug\Infrastructure.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\bin\Debug\Models.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\bin\Debug\log4net.xml
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\obj\Debug\DatabaseService.csprojResolveAssemblyReference.cache
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\obj\Debug\DatabaseService.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\obj\Debug\DatabaseService.pdb

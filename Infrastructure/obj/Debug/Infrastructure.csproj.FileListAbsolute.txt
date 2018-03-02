@@ -1,0 +1,12 @@
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\bin\Debug\Infrastructure.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\bin\Debug\Infrastructure.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\bin\Debug\Extensions.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\bin\Debug\log4net.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\bin\Debug\Models.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\bin\Debug\RTF.Data.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\bin\Debug\Extensions.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\bin\Debug\Models.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\bin\Debug\log4net.xml
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\obj\Debug\Infrastructure.csprojResolveAssemblyReference.cache
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\obj\Debug\Infrastructure.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\obj\Debug\Infrastructure.pdb

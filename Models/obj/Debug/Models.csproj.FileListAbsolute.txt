@@ -1,0 +1,4 @@
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Models\bin\Debug\Models.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Models\bin\Debug\Models.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Models\obj\Debug\Models.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Models\obj\Debug\Models.pdb

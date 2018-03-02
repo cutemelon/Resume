@@ -1,0 +1,7 @@
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseInterface\bin\Debug\DatabaseInterface.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseInterface\bin\Debug\DatabaseInterface.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseInterface\bin\Debug\Models.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseInterface\bin\Debug\Models.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseInterface\obj\Debug\DatabaseInterface.csprojResolveAssemblyReference.cache
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseInterface\obj\Debug\DatabaseInterface.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseInterface\obj\Debug\DatabaseInterface.pdb

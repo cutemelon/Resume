@@ -1,0 +1,93 @@
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-02 15:25:26,872 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName:  StructuredImportResume
+                      开始时间： 2018/1/2 15:25:26
+                      结束时间： 2018/1/2 15:25:26
+                        总时间： 0.020002秒
+                    Action参数： 
+                    Http请求头:  Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP:  ,
+                    HttpMethod:  GET,
+                      返回信息:  "ResultError"
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-02 15:25:53,549 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName:  StructuredImportResume
+                      开始时间： 2018/1/2 15:25:53
+                      结束时间： 2018/1/2 15:25:53
+                        总时间： 0秒
+                    Action参数： 
+                    Http请求头:  Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP:  ,
+                    HttpMethod:  GET,
+                      返回信息:  "ResultError"
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-02 15:27:41,402 
+线程ID:[10] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName:  StructuredImportResume
+                      开始时间： 2018/1/2 15:27:41
+                      结束时间： 2018/1/2 15:27:41
+                        总时间： 0.0310031秒
+                    Action参数： 
+                    Http请求头:  Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP:  ::1,
+                    HttpMethod:  GET,
+                      返回信息:  "ResultError"
+                    
+ 

@@ -1,0 +1,16 @@
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ApplicationExtensions\bin\Debug\ApplicationExtensions.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ApplicationExtensions\bin\Debug\ApplicationExtensions.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ApplicationExtensions\bin\Debug\DatabaseInterface.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ApplicationExtensions\bin\Debug\DatabaseService.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ApplicationExtensions\bin\Debug\Models.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ApplicationExtensions\bin\Debug\Infrastructure.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ApplicationExtensions\bin\Debug\log4net.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ApplicationExtensions\bin\Debug\RTF.Data.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ApplicationExtensions\bin\Debug\DatabaseInterface.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ApplicationExtensions\bin\Debug\DatabaseService.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ApplicationExtensions\bin\Debug\Models.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ApplicationExtensions\bin\Debug\Infrastructure.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ApplicationExtensions\bin\Debug\log4net.xml
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ApplicationExtensions\obj\Debug\ApplicationExtensions.csprojResolveAssemblyReference.cache
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ApplicationExtensions\obj\Debug\ApplicationExtensions.dll
+E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ApplicationExtensions\obj\Debug\ApplicationExtensions.pdb

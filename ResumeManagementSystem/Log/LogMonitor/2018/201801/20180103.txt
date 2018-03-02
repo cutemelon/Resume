@@ -1,0 +1,1147 @@
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 11:20:33,593 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName:  StructuredImportResume
+                      开始时间： 2018/1/3 11:19:11
+                      结束时间： 2018/1/3 11:20:33
+                        总时间： 81.8001792秒
+                    Action参数： 
+                    Http请求头:  Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP:  ::1,
+                    HttpMethod:  GET,
+                      返回信息:  "ResultError"
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 11:26:23,836 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName:  StructuredImportResume
+                      开始时间： 2018/1/3 11:26:08
+                      结束时间： 2018/1/3 11:26:23
+                        总时间： 14.9534952秒
+                    Action参数： 
+                    Http请求头:  Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP:  ::1,
+                    HttpMethod:  GET,
+                      返回信息:  "ResultError"
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 14:05:21,377 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName:  StructuredImportResume
+                      开始时间： 2018/1/3 14:04:36
+                      结束时间： 2018/1/3 14:05:21
+                        总时间： 45.3335329秒
+                    Action参数： 
+                    Http请求头:  Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP:  ::1,
+                    HttpMethod:  GET,
+                      返回信息:  "ResultError"
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 14:09:54,245 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName:  StructuredImportResume
+                      开始时间： 2018/1/3 14:09:33
+                      结束时间： 2018/1/3 14:09:54
+                        总时间： 20.922092秒
+                    Action参数： 
+                    Http请求头:  Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP:  ::1,
+                    HttpMethod:  GET,
+                      返回信息:  无返回值
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 14:31:08,527 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName:  StructuredImportResume
+                      开始时间： 2018/1/3 14:29:59
+                      结束时间： 2018/1/3 14:31:08
+                        总时间： 68.5958589秒
+                    Action参数： 
+                    Http请求头:  Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP:  ::1,
+                    HttpMethod:  GET,
+                      返回信息:  无返回值
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 14:34:26,268 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName:  StructuredImportResume
+                      开始时间： 2018/1/3 14:33:30
+                      结束时间： 2018/1/3 14:34:26
+                        总时间： 55.5735568秒
+                    Action参数： 
+                    Http请求头:  Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP:  ::1,
+                    HttpMethod:  GET,
+                      返回信息:  无返回值
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 14:38:06,764 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName:  StructuredImportResume
+                      开始时间： 2018/1/3 14:36:17
+                      结束时间： 2018/1/3 14:38:06
+                        总时间： 109.1879177秒
+                    Action参数： 
+                    Http请求头:  Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP:  ::1,
+                    HttpMethod:  GET,
+                      返回信息:  无返回值
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 14:40:14,518 
+线程ID:[13] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName:  StructuredImportResume
+                      开始时间： 2018/1/3 14:39:21
+                      结束时间： 2018/1/3 14:40:14
+                        总时间： 52.5412536秒
+                    Action参数： 
+                    Http请求头:  Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP:  ::1,
+                    HttpMethod:  GET,
+                      返回信息:  无返回值
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 14:42:20,766 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName:  StructuredImportResume
+                      开始时间： 2018/1/3 14:41:43
+                      结束时间： 2018/1/3 14:42:20
+                        总时间： 37.423742秒
+                    Action参数： 
+                    Http请求头:  Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP:  ::1,
+                    HttpMethod:  GET,
+                      返回信息:  "ResultError"
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 14:42:48,831 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName:  StructuredImportResume
+                      开始时间： 2018/1/3 14:42:38
+                      结束时间： 2018/1/3 14:42:48
+                        总时间： 10.1880187秒
+                    Action参数： 
+                    Http请求头:  Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP:  ::1,
+                    HttpMethod:  GET,
+                      返回信息:  "ResultError"
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 14:44:11,760 
+线程ID:[10] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName:  StructuredImportResume
+                      开始时间： 2018/1/3 14:43:44
+                      结束时间： 2018/1/3 14:44:11
+                        总时间： 27.472747秒
+                    Action参数： 
+                    Http请求头:  Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP:  ::1,
+                    HttpMethod:  GET,
+                      返回信息:  无返回值
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 14:54:39,300 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName:  StructuredImportResume
+                      开始时间： 2018/1/3 14:44:14
+                      结束时间： 2018/1/3 14:54:39
+                        总时间： 624.932487秒
+                    Action参数： 
+                    Http请求头:  Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP:  ::1,
+                    HttpMethod:  GET,
+                      返回信息:  无返回值
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:10:13,558 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName:  StructuredImportResume
+                      开始时间： 2018/1/3 16:08:20
+                      结束时间： 2018/1/3 16:10:13
+                        总时间： 113.0863075秒
+                    Action参数： 
+                    Http请求头:  Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP:  ::1,
+                    HttpMethod:  GET,
+                      返回信息:  "ResultError"
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:10:41,133 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName:  StructuredImportResume
+                      开始时间： 2018/1/3 16:10:16
+                      结束时间： 2018/1/3 16:10:41
+                        总时间： 25.1145112秒
+                    Action参数： 
+                    Http请求头:  Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP:  ::1,
+                    HttpMethod:  GET,
+                      返回信息:  "ResultError"
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:14:45,161 
+线程ID:[10] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName:  StructuredImportResume
+                      开始时间： 2018/1/3 16:11:27
+                      结束时间： 2018/1/3 16:14:45
+                        总时间： 198.0438024秒
+                    Action参数： 
+                    Http请求头:  Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP:  ::1,
+                    HttpMethod:  GET,
+                      返回信息:  "ResultError"
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:28:04,408 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName： StructuredImportResume
+                      开始时间： 2018/1/3 16:24:13
+                      结束时间： 2018/1/3 16:28:04
+                        总时间： 230.5150492秒
+                    Action参数： 
+                    Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP： ::1,
+                    HttpMethod： GET,
+                      返回信息： 无返回值
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:29:59,587 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName： StructuredImportResume
+                      开始时间： 2018/1/3 16:28:14
+                      结束时间： 2018/1/3 16:29:59
+                        总时间： 104.8584848秒
+                    Action参数： 
+                    Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP： ::1,
+                    HttpMethod： GET,
+                      返回信息： 无返回值
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:34:08,549 
+线程ID:[13] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName： StructuredImportResume
+                      开始时间： 2018/1/3 16:30:03
+                      结束时间： 2018/1/3 16:34:08
+                        总时间： 244.8074783秒
+                    Action参数： 
+                    Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP： ::1,
+                    HttpMethod： GET,
+                      返回信息： 无返回值
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:36:42,559 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName： StructuredImportResume
+                      开始时间： 2018/1/3 16:36:16
+                      结束时间： 2018/1/3 16:36:42
+                        总时间： 26.2346232秒
+                    Action参数： 
+                    Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP： ::1,
+                    HttpMethod： GET,
+                      返回信息： 无返回值
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:40:38,145 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName： StructuredImportResume
+                      开始时间： 2018/1/3 16:38:45
+                      结束时间： 2018/1/3 16:40:38
+                        总时间： 112.4922481秒
+                    Action参数： 
+                    Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP： ::1,
+                    HttpMethod： GET,
+                      返回信息： 无返回值
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:41:47,599 
+线程ID:[10] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName： StructuredImportResume
+                      开始时间： 2018/1/3 16:41:22
+                      结束时间： 2018/1/3 16:41:47
+                        总时间： 25.1065104秒
+                    Action参数： 
+                    Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP： ::1,
+                    HttpMethod： GET,
+                      返回信息： 无返回值
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:43:21,235 
+线程ID:[10] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName： StructuredImportResume
+                      开始时间： 2018/1/3 16:43:21
+                      结束时间： 2018/1/3 16:43:21
+                        总时间： 0.2160216秒
+                    Action参数： 
+                    Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP： ::1,
+                    HttpMethod： GET,
+                      返回信息： "[{\"row_id\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\",\"talent_id\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"11\",\"gender_code\":null,\"marriage_status_code\":null,\"birthday\":null,\"birthday_string\":null,\"id_type_code\":null,\"id_number\":null,\"political_status_code\":null,\"home_phone\":null,\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":null,\"post_code\":null,\"current_city_code\":null,\"hukou_city_code\":null,\"nationality_code\":null,\"diploma_code\":null,\"begin_work_date\":null,\"graduate_date\":null,\"highest_school\":null,\"highest_major\":null,\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":null,\"job_apply_status_code\":null,\"created_by\":\"00000000-0000-0000-0000-000000000000\",\"created_time\":null,\"last_updated_by\":\"00000000-0000-0000-0000-000000000000\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"b8b2b7cb-0c83-4348-9acc-2b11949410d5\",\"talent_id\":\"bee66fb1-3fcc-46e3-a6d6-2f898f36d2e7\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"c856e534-5ce8-4640-832b-5fb0cbf00024\",\"created_time\":\"2018-01-03T16:11:27.613\",\"last_updated_by\":\"c856e534-5ce8-4640-832b-5fb0cbf00024\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"e6861fb4-d903-4bca-939f-65a42be1db7b\",\"talent_id\":\"995cc2a9-6b06-4abd-a59a-929aad30fce9\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"26209475-8f36-4237-a10f-47760ecf6eee\",\"created_time\":\"2018-01-03T16:08:20.49\",\"last_updated_by\":\"26209475-8f36-4237-a10f-47760ecf6eee\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"f3ac0c41-5225-4e36-98bc-65ad43da9ddc\",\"talent_id\":\"c277a361-52d3-4822-93bd-862de98bb16d\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"7551f302-16a7-42ee-b977-bc54ebf2f8d5\",\"created_time\":\"2018-01-03T16:10:16.017\",\"last_updated_by\":\"7551f302-16a7-42ee-b977-bc54ebf2f8d5\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"18c22d26-8188-4a16-a583-6a5c6fb03b62\",\"talent_id\":\"ceb00191-f29b-48b2-8be3-b70ffe1bba59\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"b2494328-f1f8-4e07-9b9b-ca8b905fd69e\",\"created_time\":\"2018-01-03T14:41:43.36\",\"last_updated_by\":\"b2494328-f1f8-4e07-9b9b-ca8b905fd69e\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"c09ecd77-7058-4ac3-8a81-9bc55660ae85\",\"talent_id\":\"1f1657f6-5dd5-4e9d-98f5-93f64718ea8f\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"fd2e5a96-5350-4ae3-9000-c4efc5f92048\",\"created_time\":\"2018-01-03T14:42:38.643\",\"last_updated_by\":\"fd2e5a96-5350-4ae3-9000-c4efc5f92048\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0}]"
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:44:27,583 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName： StructuredImportResume
+                      开始时间： 2018/1/3 16:44:08
+                      结束时间： 2018/1/3 16:44:27
+                        总时间： 19.4629461秒
+                    Action参数： 
+                    Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP： ::1,
+                    HttpMethod： GET,
+                      返回信息： 无返回值
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:45:36,593 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName： StructuredImportResume
+                      开始时间： 2018/1/3 16:45:26
+                      结束时间： 2018/1/3 16:45:36
+                        总时间： 10.5620561秒
+                    Action参数： 
+                    Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP： ::1,
+                    HttpMethod： GET,
+                      返回信息： "[{\"row_id\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\",\"talent_id\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"11\",\"gender_code\":null,\"marriage_status_code\":null,\"birthday\":null,\"birthday_string\":null,\"id_type_code\":null,\"id_number\":null,\"political_status_code\":null,\"home_phone\":null,\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":null,\"post_code\":null,\"current_city_code\":null,\"hukou_city_code\":null,\"nationality_code\":null,\"diploma_code\":null,\"begin_work_date\":null,\"graduate_date\":null,\"highest_school\":null,\"highest_major\":null,\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":null,\"job_apply_status_code\":null,\"created_by\":\"00000000-0000-0000-0000-000000000000\",\"created_time\":null,\"last_updated_by\":\"00000000-0000-0000-0000-000000000000\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"b8b2b7cb-0c83-4348-9acc-2b11949410d5\",\"talent_id\":\"bee66fb1-3fcc-46e3-a6d6-2f898f36d2e7\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"c856e534-5ce8-4640-832b-5fb0cbf00024\",\"created_time\":\"2018-01-03T16:11:27.613\",\"last_updated_by\":\"c856e534-5ce8-4640-832b-5fb0cbf00024\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"e6861fb4-d903-4bca-939f-65a42be1db7b\",\"talent_id\":\"995cc2a9-6b06-4abd-a59a-929aad30fce9\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"26209475-8f36-4237-a10f-47760ecf6eee\",\"created_time\":\"2018-01-03T16:08:20.49\",\"last_updated_by\":\"26209475-8f36-4237-a10f-47760ecf6eee\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"f3ac0c41-5225-4e36-98bc-65ad43da9ddc\",\"talent_id\":\"c277a361-52d3-4822-93bd-862de98bb16d\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"7551f302-16a7-42ee-b977-bc54ebf2f8d5\",\"created_time\":\"2018-01-03T16:10:16.017\",\"last_updated_by\":\"7551f302-16a7-42ee-b977-bc54ebf2f8d5\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"18c22d26-8188-4a16-a583-6a5c6fb03b62\",\"talent_id\":\"ceb00191-f29b-48b2-8be3-b70ffe1bba59\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"b2494328-f1f8-4e07-9b9b-ca8b905fd69e\",\"created_time\":\"2018-01-03T14:41:43.36\",\"last_updated_by\":\"b2494328-f1f8-4e07-9b9b-ca8b905fd69e\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"c09ecd77-7058-4ac3-8a81-9bc55660ae85\",\"talent_id\":\"1f1657f6-5dd5-4e9d-98f5-93f64718ea8f\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"fd2e5a96-5350-4ae3-9000-c4efc5f92048\",\"created_time\":\"2018-01-03T14:42:38.643\",\"last_updated_by\":\"fd2e5a96-5350-4ae3-9000-c4efc5f92048\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"19ee2997-cdf1-4e15-b960-eb7919e00f53\",\"talent_id\":\"3c332ddd-1b0f-44f5-8307-ffdaed3f9a76\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"7475ad97-3db4-4a1d-873a-b650e23643f6\",\"created_time\":\"2018-01-03T16:44:08.12\",\"last_updated_by\":\"7475ad97-3db4-4a1d-873a-b650e23643f6\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"9845e471-5f8d-4d79-8fa6-eec7a07590c1\",\"talent_id\":\"0d4574de-8860-4136-89ba-acc6bddf6273\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"78802ab3-ba19-4c1d-8abd-1eded447ef1e\",\"created_time\":\"2018-01-03T16:45:26.027\",\"last_updated_by\":\"78802ab3-ba19-4c1d-8abd-1eded447ef1e\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0}]"
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:49:53,410 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName： StructuredImportResume
+                      开始时间： 2018/1/3 16:49:53
+                      结束时间： 2018/1/3 16:49:53
+                        总时间： 0.3380338秒
+                    Action参数： 
+                    Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP： ::1,
+                    HttpMethod： GET,
+                      返回信息： "[{\"row_id\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\",\"talent_id\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"11\",\"gender_code\":null,\"marriage_status_code\":null,\"birthday\":null,\"birthday_string\":null,\"id_type_code\":null,\"id_number\":null,\"political_status_code\":null,\"home_phone\":null,\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":null,\"post_code\":null,\"current_city_code\":null,\"hukou_city_code\":null,\"nationality_code\":null,\"diploma_code\":null,\"begin_work_date\":null,\"graduate_date\":null,\"highest_school\":null,\"highest_major\":null,\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":null,\"job_apply_status_code\":null,\"created_by\":\"00000000-0000-0000-0000-000000000000\",\"created_time\":null,\"last_updated_by\":\"00000000-0000-0000-0000-000000000000\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"3a343a43-948e-4a55-aa5f-249e4ad9abbd\",\"talent_id\":\"75c7f156-6257-4666-8597-8cd7a32adc77\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"56736e6d-fa84-4d0c-9e45-d1228edbe7ed\",\"created_time\":\"2018-01-03T16:49:53\",\"last_updated_by\":\"56736e6d-fa84-4d0c-9e45-d1228edbe7ed\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"b8b2b7cb-0c83-4348-9acc-2b11949410d5\",\"talent_id\":\"bee66fb1-3fcc-46e3-a6d6-2f898f36d2e7\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"c856e534-5ce8-4640-832b-5fb0cbf00024\",\"created_time\":\"2018-01-03T16:11:27.613\",\"last_updated_by\":\"c856e534-5ce8-4640-832b-5fb0cbf00024\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"e6861fb4-d903-4bca-939f-65a42be1db7b\",\"talent_id\":\"995cc2a9-6b06-4abd-a59a-929aad30fce9\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"26209475-8f36-4237-a10f-47760ecf6eee\",\"created_time\":\"2018-01-03T16:08:20.49\",\"last_updated_by\":\"26209475-8f36-4237-a10f-47760ecf6eee\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"f3ac0c41-5225-4e36-98bc-65ad43da9ddc\",\"talent_id\":\"c277a361-52d3-4822-93bd-862de98bb16d\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"7551f302-16a7-42ee-b977-bc54ebf2f8d5\",\"created_time\":\"2018-01-03T16:10:16.017\",\"last_updated_by\":\"7551f302-16a7-42ee-b977-bc54ebf2f8d5\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"18c22d26-8188-4a16-a583-6a5c6fb03b62\",\"talent_id\":\"ceb00191-f29b-48b2-8be3-b70ffe1bba59\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"b2494328-f1f8-4e07-9b9b-ca8b905fd69e\",\"created_time\":\"2018-01-03T14:41:43.36\",\"last_updated_by\":\"b2494328-f1f8-4e07-9b9b-ca8b905fd69e\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"bf5affe1-624a-449c-b97d-7aa7f0d0a1d1\",\"talent_id\":\"a22eb3c2-35dc-4b1c-9387-f11899fd63ff\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"c01b9afb-6c69-4ffc-9cc3-39300afa34ea\",\"created_time\":\"2018-01-03T16:49:53\",\"last_updated_by\":\"c01b9afb-6c69-4ffc-9cc3-39300afa34ea\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"c09ecd77-7058-4ac3-8a81-9bc55660ae85\",\"talent_id\":\"1f1657f6-5dd5-4e9d-98f5-93f64718ea8f\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"fd2e5a96-5350-4ae3-9000-c4efc5f92048\",\"created_time\":\"2018-01-03T14:42:38.643\",\"last_updated_by\":\"fd2e5a96-5350-4ae3-9000-c4efc5f92048\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"19ee2997-cdf1-4e15-b960-eb7919e00f53\",\"talent_id\":\"3c332ddd-1b0f-44f5-8307-ffdaed3f9a76\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"7475ad97-3db4-4a1d-873a-b650e23643f6\",\"created_time\":\"2018-01-03T16:44:08.12\",\"last_updated_by\":\"7475ad97-3db4-4a1d-873a-b650e23643f6\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"9845e471-5f8d-4d79-8fa6-eec7a07590c1\",\"talent_id\":\"0d4574de-8860-4136-89ba-acc6bddf6273\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"78802ab3-ba19-4c1d-8abd-1eded447ef1e\",\"created_time\":\"2018-01-03T16:45:26.027\",\"last_updated_by\":\"78802ab3-ba19-4c1d-8abd-1eded447ef1e\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0}]"
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:50:16,677 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName： StructuredImportResume
+                      开始时间： 2018/1/3 16:50:16
+                      结束时间： 2018/1/3 16:50:16
+                        总时间： 0.1320132秒
+                    Action参数： 
+                    Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP： ::1,
+                    HttpMethod： GET,
+                      返回信息： "[{\"row_id\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\",\"talent_id\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"11\",\"gender_code\":null,\"marriage_status_code\":null,\"birthday\":null,\"birthday_string\":null,\"id_type_code\":null,\"id_number\":null,\"political_status_code\":null,\"home_phone\":null,\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":null,\"post_code\":null,\"current_city_code\":null,\"hukou_city_code\":null,\"nationality_code\":null,\"diploma_code\":null,\"begin_work_date\":null,\"graduate_date\":null,\"highest_school\":null,\"highest_major\":null,\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":null,\"job_apply_status_code\":null,\"created_by\":\"00000000-0000-0000-0000-000000000000\",\"created_time\":null,\"last_updated_by\":\"00000000-0000-0000-0000-000000000000\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"3a343a43-948e-4a55-aa5f-249e4ad9abbd\",\"talent_id\":\"75c7f156-6257-4666-8597-8cd7a32adc77\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"56736e6d-fa84-4d0c-9e45-d1228edbe7ed\",\"created_time\":\"2018-01-03T16:49:53\",\"last_updated_by\":\"56736e6d-fa84-4d0c-9e45-d1228edbe7ed\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"b8b2b7cb-0c83-4348-9acc-2b11949410d5\",\"talent_id\":\"bee66fb1-3fcc-46e3-a6d6-2f898f36d2e7\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"c856e534-5ce8-4640-832b-5fb0cbf00024\",\"created_time\":\"2018-01-03T16:11:27.613\",\"last_updated_by\":\"c856e534-5ce8-4640-832b-5fb0cbf00024\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"e6861fb4-d903-4bca-939f-65a42be1db7b\",\"talent_id\":\"995cc2a9-6b06-4abd-a59a-929aad30fce9\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"26209475-8f36-4237-a10f-47760ecf6eee\",\"created_time\":\"2018-01-03T16:08:20.49\",\"last_updated_by\":\"26209475-8f36-4237-a10f-47760ecf6eee\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"f3ac0c41-5225-4e36-98bc-65ad43da9ddc\",\"talent_id\":\"c277a361-52d3-4822-93bd-862de98bb16d\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"7551f302-16a7-42ee-b977-bc54ebf2f8d5\",\"created_time\":\"2018-01-03T16:10:16.017\",\"last_updated_by\":\"7551f302-16a7-42ee-b977-bc54ebf2f8d5\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"18c22d26-8188-4a16-a583-6a5c6fb03b62\",\"talent_id\":\"ceb00191-f29b-48b2-8be3-b70ffe1bba59\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"b2494328-f1f8-4e07-9b9b-ca8b905fd69e\",\"created_time\":\"2018-01-03T14:41:43.36\",\"last_updated_by\":\"b2494328-f1f8-4e07-9b9b-ca8b905fd69e\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"bf5affe1-624a-449c-b97d-7aa7f0d0a1d1\",\"talent_id\":\"a22eb3c2-35dc-4b1c-9387-f11899fd63ff\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"c01b9afb-6c69-4ffc-9cc3-39300afa34ea\",\"created_time\":\"2018-01-03T16:49:53\",\"last_updated_by\":\"c01b9afb-6c69-4ffc-9cc3-39300afa34ea\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"d1cd17fd-4d07-4e56-a929-99e0170f90cd\",\"talent_id\":\"e247830b-d196-447c-8ff9-317cd6274eac\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"8199a7a4-216f-48d8-a296-4f1438b5a677\",\"created_time\":\"2018-01-03T16:50:16\",\"last_updated_by\":\"8199a7a4-216f-48d8-a296-4f1438b5a677\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"c09ecd77-7058-4ac3-8a81-9bc55660ae85\",\"talent_id\":\"1f1657f6-5dd5-4e9d-98f5-93f64718ea8f\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"fd2e5a96-5350-4ae3-9000-c4efc5f92048\",\"created_time\":\"2018-01-03T14:42:38.643\",\"last_updated_by\":\"fd2e5a96-5350-4ae3-9000-c4efc5f92048\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"6f60d710-9dea-4a7c-a855-eaa670d76d27\",\"talent_id\":\"55e28633-1c16-49f4-98a0-2fac0d2a00ba\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"bccfe884-edbf-45e5-9b15-52fd6ec1fe85\",\"created_time\":\"2018-01-03T16:50:16\",\"last_updated_by\":\"bccfe884-edbf-45e5-9b15-52fd6ec1fe85\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"19ee2997-cdf1-4e15-b960-eb7919e00f53\",\"talent_id\":\"3c332ddd-1b0f-44f5-8307-ffdaed3f9a76\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"7475ad97-3db4-4a1d-873a-b650e23643f6\",\"created_time\":\"2018-01-03T16:44:08.12\",\"last_updated_by\":\"7475ad97-3db4-4a1d-873a-b650e23643f6\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0},{\"row_id\":\"9845e471-5f8d-4d79-8fa6-eec7a07590c1\",\"talent_id\":\"0d4574de-8860-4136-89ba-acc6bddf6273\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"78802ab3-ba19-4c1d-8abd-1eded447ef1e\",\"created_time\":\"2018-01-03T16:45:26.027\",\"last_updated_by\":\"78802ab3-ba19-4c1d-8abd-1eded447ef1e\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0}]"
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:56:28,792 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName： StructuredImportResume
+                      开始时间： 2018/1/3 16:56:14
+                      结束时间： 2018/1/3 16:56:28
+                        总时间： 14.5244523秒
+                    Action参数： 
+                    Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP： ::1,
+                    HttpMethod： GET,
+                      返回信息： 无返回值
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:57:24,571 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName： StructuredImportResume
+                      开始时间： 2018/1/3 16:57:09
+                      结束时间： 2018/1/3 16:57:24
+                        总时间： 15.4245423秒
+                    Action参数： 
+                    Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP： ::1,
+                    HttpMethod： GET,
+                      返回信息： 无返回值
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:58:57,070 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName： StructuredImportResume
+                      开始时间： 2018/1/3 16:58:54
+                      结束时间： 2018/1/3 16:58:57
+                        总时间： 2.5782578秒
+                    Action参数： 
+                    Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP： ::1,
+                    HttpMethod： GET,
+                      返回信息： "{\"row_id\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\",\"talent_id\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"11\",\"gender_code\":null,\"marriage_status_code\":null,\"birthday\":null,\"birthday_string\":null,\"id_type_code\":null,\"id_number\":null,\"political_status_code\":null,\"home_phone\":null,\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":null,\"post_code\":null,\"current_city_code\":null,\"hukou_city_code\":null,\"nationality_code\":null,\"diploma_code\":null,\"begin_work_date\":null,\"graduate_date\":null,\"highest_school\":null,\"highest_major\":null,\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":null,\"job_apply_status_code\":null,\"created_by\":\"00000000-0000-0000-0000-000000000000\",\"created_time\":null,\"last_updated_by\":\"00000000-0000-0000-0000-000000000000\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0}"
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 17:02:46,729 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName： StructuredImportResume
+                      开始时间： 2018/1/3 17:02:46
+                      结束时间： 2018/1/3 17:02:46
+                        总时间： 0.2640264秒
+                    Action参数： 
+                    Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP： ::1,
+                    HttpMethod： GET,
+                      返回信息： "{\"row_id\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\",\"talent_id\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"11\",\"gender_code\":null,\"marriage_status_code\":null,\"birthday\":null,\"birthday_string\":null,\"id_type_code\":null,\"id_number\":null,\"political_status_code\":null,\"home_phone\":null,\"office_phone\":null,\"msn\":null,\"qq\":\"0e9c9ff80f494e00b5704b4bd9ace5ee\",\"address\":null,\"post_code\":null,\"current_city_code\":null,\"hukou_city_code\":null,\"nationality_code\":null,\"diploma_code\":null,\"begin_work_date\":null,\"graduate_date\":null,\"highest_school\":null,\"highest_major\":null,\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":null,\"job_apply_status_code\":null,\"created_by\":\"00000000-0000-0000-0000-000000000000\",\"created_time\":null,\"last_updated_by\":\"00000000-0000-0000-0000-000000000000\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0}"
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 17:02:53,094 
+线程ID:[10] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName： StructuredImportResume
+                      开始时间： 2018/1/3 17:02:53
+                      结束时间： 2018/1/3 17:02:53
+                        总时间： 0.0210021秒
+                    Action参数： 
+                    Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP： ::1,
+                    HttpMethod： GET,
+                      返回信息： "{\"row_id\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\",\"talent_id\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"11\",\"gender_code\":null,\"marriage_status_code\":null,\"birthday\":null,\"birthday_string\":null,\"id_type_code\":null,\"id_number\":null,\"political_status_code\":null,\"home_phone\":null,\"office_phone\":null,\"msn\":null,\"qq\":\"b7c5ddb0961f455da490aeb435efb688\",\"address\":null,\"post_code\":null,\"current_city_code\":null,\"hukou_city_code\":null,\"nationality_code\":null,\"diploma_code\":null,\"begin_work_date\":null,\"graduate_date\":null,\"highest_school\":null,\"highest_major\":null,\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":null,\"job_apply_status_code\":null,\"created_by\":\"00000000-0000-0000-0000-000000000000\",\"created_time\":null,\"last_updated_by\":\"00000000-0000-0000-0000-000000000000\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0}"
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 17:02:54,942 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName： StructuredImportResume
+                      开始时间： 2018/1/3 17:02:54
+                      结束时间： 2018/1/3 17:02:54
+                        总时间： 0.0270027秒
+                    Action参数： 
+                    Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP： ::1,
+                    HttpMethod： GET,
+                      返回信息： "{\"row_id\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\",\"talent_id\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"11\",\"gender_code\":null,\"marriage_status_code\":null,\"birthday\":null,\"birthday_string\":null,\"id_type_code\":null,\"id_number\":null,\"political_status_code\":null,\"home_phone\":null,\"office_phone\":null,\"msn\":null,\"qq\":\"f2e41c52e9e8477486cc62daf416b882\",\"address\":null,\"post_code\":null,\"current_city_code\":null,\"hukou_city_code\":null,\"nationality_code\":null,\"diploma_code\":null,\"begin_work_date\":null,\"graduate_date\":null,\"highest_school\":null,\"highest_major\":null,\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":null,\"job_apply_status_code\":null,\"created_by\":\"00000000-0000-0000-0000-000000000000\",\"created_time\":null,\"last_updated_by\":\"00000000-0000-0000-0000-000000000000\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0}"
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 17:02:56,089 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName： StructuredImportResume
+                      开始时间： 2018/1/3 17:02:56
+                      结束时间： 2018/1/3 17:02:56
+                        总时间： 0.030003秒
+                    Action参数： 
+                    Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP： ::1,
+                    HttpMethod： GET,
+                      返回信息： "{\"row_id\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\",\"talent_id\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"11\",\"gender_code\":null,\"marriage_status_code\":null,\"birthday\":null,\"birthday_string\":null,\"id_type_code\":null,\"id_number\":null,\"political_status_code\":null,\"home_phone\":null,\"office_phone\":null,\"msn\":null,\"qq\":\"db408c030de84e9aab71e08cee4c98f1\",\"address\":null,\"post_code\":null,\"current_city_code\":null,\"hukou_city_code\":null,\"nationality_code\":null,\"diploma_code\":null,\"begin_work_date\":null,\"graduate_date\":null,\"highest_school\":null,\"highest_major\":null,\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":null,\"job_apply_status_code\":null,\"created_by\":\"00000000-0000-0000-0000-000000000000\",\"created_time\":null,\"last_updated_by\":\"00000000-0000-0000-0000-000000000000\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":0}"
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 17:29:17,364 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName： StructuredImportResume
+                      开始时间： 2018/1/3 17:29:06
+                      结束时间： 2018/1/3 17:29:17
+                        总时间： 10.4580457秒
+                    Action参数： 
+                    Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP： ::1,
+                    HttpMethod： GET,
+                      返回信息： 无返回值
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 17:29:40,977 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName： StructuredImportResume
+                      开始时间： 2018/1/3 17:29:40
+                      结束时间： 2018/1/3 17:29:40
+                        总时间： 0.2090209秒
+                    Action参数： 
+                    Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP： ::1,
+                    HttpMethod： GET,
+                      返回信息： "[{\"row_id\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\",\"talent_id\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"11\",\"gender_code\":null,\"marriage_status_code\":null,\"birthday\":null,\"birthday_string\":null,\"id_type_code\":null,\"id_number\":null,\"political_status_code\":null,\"home_phone\":null,\"office_phone\":null,\"msn\":null,\"qq\":\"db408c030de84e9aab71e08cee4c98f1\",\"address\":null,\"post_code\":null,\"current_city_code\":null,\"hukou_city_code\":null,\"nationality_code\":null,\"diploma_code\":null,\"begin_work_date\":null,\"graduate_date\":null,\"highest_school\":null,\"highest_major\":null,\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":null,\"job_apply_status_code\":null,\"created_by\":\"00000000-0000-0000-0000-000000000000\",\"created_time\":null,\"last_updated_by\":\"00000000-0000-0000-0000-000000000000\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\"},{\"row_id\":\"3a343a43-948e-4a55-aa5f-249e4ad9abbd\",\"talent_id\":\"75c7f156-6257-4666-8597-8cd7a32adc77\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"56736e6d-fa84-4d0c-9e45-d1228edbe7ed\",\"created_time\":\"2018-01-03T16:49:53\",\"last_updated_by\":\"56736e6d-fa84-4d0c-9e45-d1228edbe7ed\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"3a343a43-948e-4a55-aa5f-249e4ad9abbd\"},{\"row_id\":\"b8b2b7cb-0c83-4348-9acc-2b11949410d5\",\"talent_id\":\"bee66fb1-3fcc-46e3-a6d6-2f898f36d2e7\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"c856e534-5ce8-4640-832b-5fb0cbf00024\",\"created_time\":\"2018-01-03T16:11:27.613\",\"last_updated_by\":\"c856e534-5ce8-4640-832b-5fb0cbf00024\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"b8b2b7cb-0c83-4348-9acc-2b11949410d5\"},{\"row_id\":\"e6861fb4-d903-4bca-939f-65a42be1db7b\",\"talent_id\":\"995cc2a9-6b06-4abd-a59a-929aad30fce9\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"26209475-8f36-4237-a10f-47760ecf6eee\",\"created_time\":\"2018-01-03T16:08:20.49\",\"last_updated_by\":\"26209475-8f36-4237-a10f-47760ecf6eee\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"e6861fb4-d903-4bca-939f-65a42be1db7b\"},{\"row_id\":\"f3ac0c41-5225-4e36-98bc-65ad43da9ddc\",\"talent_id\":\"c277a361-52d3-4822-93bd-862de98bb16d\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"7551f302-16a7-42ee-b977-bc54ebf2f8d5\",\"created_time\":\"2018-01-03T16:10:16.017\",\"last_updated_by\":\"7551f302-16a7-42ee-b977-bc54ebf2f8d5\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"f3ac0c41-5225-4e36-98bc-65ad43da9ddc\"},{\"row_id\":\"18c22d26-8188-4a16-a583-6a5c6fb03b62\",\"talent_id\":\"ceb00191-f29b-48b2-8be3-b70ffe1bba59\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"b2494328-f1f8-4e07-9b9b-ca8b905fd69e\",\"created_time\":\"2018-01-03T14:41:43.36\",\"last_updated_by\":\"b2494328-f1f8-4e07-9b9b-ca8b905fd69e\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"18c22d26-8188-4a16-a583-6a5c6fb03b62\"},{\"row_id\":\"bf5affe1-624a-449c-b97d-7aa7f0d0a1d1\",\"talent_id\":\"a22eb3c2-35dc-4b1c-9387-f11899fd63ff\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"c01b9afb-6c69-4ffc-9cc3-39300afa34ea\",\"created_time\":\"2018-01-03T16:49:53\",\"last_updated_by\":\"c01b9afb-6c69-4ffc-9cc3-39300afa34ea\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"bf5affe1-624a-449c-b97d-7aa7f0d0a1d1\"},{\"row_id\":\"d1cd17fd-4d07-4e56-a929-99e0170f90cd\",\"talent_id\":\"e247830b-d196-447c-8ff9-317cd6274eac\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"8199a7a4-216f-48d8-a296-4f1438b5a677\",\"created_time\":\"2018-01-03T16:50:16\",\"last_updated_by\":\"8199a7a4-216f-48d8-a296-4f1438b5a677\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"d1cd17fd-4d07-4e56-a929-99e0170f90cd\"},{\"row_id\":\"c09ecd77-7058-4ac3-8a81-9bc55660ae85\",\"talent_id\":\"1f1657f6-5dd5-4e9d-98f5-93f64718ea8f\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"fd2e5a96-5350-4ae3-9000-c4efc5f92048\",\"created_time\":\"2018-01-03T14:42:38.643\",\"last_updated_by\":\"fd2e5a96-5350-4ae3-9000-c4efc5f92048\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"c09ecd77-7058-4ac3-8a81-9bc55660ae85\"},{\"row_id\":\"6f60d710-9dea-4a7c-a855-eaa670d76d27\",\"talent_id\":\"55e28633-1c16-49f4-98a0-2fac0d2a00ba\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"bccfe884-edbf-45e5-9b15-52fd6ec1fe85\",\"created_time\":\"2018-01-03T16:50:16\",\"last_updated_by\":\"bccfe884-edbf-45e5-9b15-52fd6ec1fe85\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"6f60d710-9dea-4a7c-a855-eaa670d76d27\"},{\"row_id\":\"19ee2997-cdf1-4e15-b960-eb7919e00f53\",\"talent_id\":\"3c332ddd-1b0f-44f5-8307-ffdaed3f9a76\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"7475ad97-3db4-4a1d-873a-b650e23643f6\",\"created_time\":\"2018-01-03T16:44:08.12\",\"last_updated_by\":\"7475ad97-3db4-4a1d-873a-b650e23643f6\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"19ee2997-cdf1-4e15-b960-eb7919e00f53\"},{\"row_id\":\"9845e471-5f8d-4d79-8fa6-eec7a07590c1\",\"talent_id\":\"0d4574de-8860-4136-89ba-acc6bddf6273\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"78802ab3-ba19-4c1d-8abd-1eded447ef1e\",\"created_time\":\"2018-01-03T16:45:26.027\",\"last_updated_by\":\"78802ab3-ba19-4c1d-8abd-1eded447ef1e\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"9845e471-5f8d-4d79-8fa6-eec7a07590c1\"}]"
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 17:29:47,694 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName： StructuredImportResume
+                      开始时间： 2018/1/3 17:29:47
+                      结束时间： 2018/1/3 17:29:47
+                        总时间： 0.0180018秒
+                    Action参数： 
+                    Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP： ::1,
+                    HttpMethod： GET,
+                      返回信息： "[{\"row_id\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\",\"talent_id\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"11\",\"gender_code\":null,\"marriage_status_code\":null,\"birthday\":null,\"birthday_string\":null,\"id_type_code\":null,\"id_number\":null,\"political_status_code\":null,\"home_phone\":null,\"office_phone\":null,\"msn\":null,\"qq\":\"db408c030de84e9aab71e08cee4c98f1\",\"address\":null,\"post_code\":null,\"current_city_code\":null,\"hukou_city_code\":null,\"nationality_code\":null,\"diploma_code\":null,\"begin_work_date\":null,\"graduate_date\":null,\"highest_school\":null,\"highest_major\":null,\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":null,\"job_apply_status_code\":null,\"created_by\":\"00000000-0000-0000-0000-000000000000\",\"created_time\":null,\"last_updated_by\":\"00000000-0000-0000-0000-000000000000\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\"},{\"row_id\":\"3a343a43-948e-4a55-aa5f-249e4ad9abbd\",\"talent_id\":\"75c7f156-6257-4666-8597-8cd7a32adc77\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"56736e6d-fa84-4d0c-9e45-d1228edbe7ed\",\"created_time\":\"2018-01-03T16:49:53\",\"last_updated_by\":\"56736e6d-fa84-4d0c-9e45-d1228edbe7ed\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"3a343a43-948e-4a55-aa5f-249e4ad9abbd\"},{\"row_id\":\"b8b2b7cb-0c83-4348-9acc-2b11949410d5\",\"talent_id\":\"bee66fb1-3fcc-46e3-a6d6-2f898f36d2e7\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"c856e534-5ce8-4640-832b-5fb0cbf00024\",\"created_time\":\"2018-01-03T16:11:27.613\",\"last_updated_by\":\"c856e534-5ce8-4640-832b-5fb0cbf00024\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"b8b2b7cb-0c83-4348-9acc-2b11949410d5\"},{\"row_id\":\"e6861fb4-d903-4bca-939f-65a42be1db7b\",\"talent_id\":\"995cc2a9-6b06-4abd-a59a-929aad30fce9\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"26209475-8f36-4237-a10f-47760ecf6eee\",\"created_time\":\"2018-01-03T16:08:20.49\",\"last_updated_by\":\"26209475-8f36-4237-a10f-47760ecf6eee\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"e6861fb4-d903-4bca-939f-65a42be1db7b\"},{\"row_id\":\"f3ac0c41-5225-4e36-98bc-65ad43da9ddc\",\"talent_id\":\"c277a361-52d3-4822-93bd-862de98bb16d\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"7551f302-16a7-42ee-b977-bc54ebf2f8d5\",\"created_time\":\"2018-01-03T16:10:16.017\",\"last_updated_by\":\"7551f302-16a7-42ee-b977-bc54ebf2f8d5\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"f3ac0c41-5225-4e36-98bc-65ad43da9ddc\"},{\"row_id\":\"18c22d26-8188-4a16-a583-6a5c6fb03b62\",\"talent_id\":\"ceb00191-f29b-48b2-8be3-b70ffe1bba59\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"b2494328-f1f8-4e07-9b9b-ca8b905fd69e\",\"created_time\":\"2018-01-03T14:41:43.36\",\"last_updated_by\":\"b2494328-f1f8-4e07-9b9b-ca8b905fd69e\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"18c22d26-8188-4a16-a583-6a5c6fb03b62\"},{\"row_id\":\"bf5affe1-624a-449c-b97d-7aa7f0d0a1d1\",\"talent_id\":\"a22eb3c2-35dc-4b1c-9387-f11899fd63ff\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"c01b9afb-6c69-4ffc-9cc3-39300afa34ea\",\"created_time\":\"2018-01-03T16:49:53\",\"last_updated_by\":\"c01b9afb-6c69-4ffc-9cc3-39300afa34ea\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"bf5affe1-624a-449c-b97d-7aa7f0d0a1d1\"},{\"row_id\":\"d1cd17fd-4d07-4e56-a929-99e0170f90cd\",\"talent_id\":\"e247830b-d196-447c-8ff9-317cd6274eac\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"8199a7a4-216f-48d8-a296-4f1438b5a677\",\"created_time\":\"2018-01-03T16:50:16\",\"last_updated_by\":\"8199a7a4-216f-48d8-a296-4f1438b5a677\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"d1cd17fd-4d07-4e56-a929-99e0170f90cd\"},{\"row_id\":\"c09ecd77-7058-4ac3-8a81-9bc55660ae85\",\"talent_id\":\"1f1657f6-5dd5-4e9d-98f5-93f64718ea8f\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"fd2e5a96-5350-4ae3-9000-c4efc5f92048\",\"created_time\":\"2018-01-03T14:42:38.643\",\"last_updated_by\":\"fd2e5a96-5350-4ae3-9000-c4efc5f92048\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"c09ecd77-7058-4ac3-8a81-9bc55660ae85\"},{\"row_id\":\"6f60d710-9dea-4a7c-a855-eaa670d76d27\",\"talent_id\":\"55e28633-1c16-49f4-98a0-2fac0d2a00ba\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"bccfe884-edbf-45e5-9b15-52fd6ec1fe85\",\"created_time\":\"2018-01-03T16:50:16\",\"last_updated_by\":\"bccfe884-edbf-45e5-9b15-52fd6ec1fe85\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"6f60d710-9dea-4a7c-a855-eaa670d76d27\"},{\"row_id\":\"19ee2997-cdf1-4e15-b960-eb7919e00f53\",\"talent_id\":\"3c332ddd-1b0f-44f5-8307-ffdaed3f9a76\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"7475ad97-3db4-4a1d-873a-b650e23643f6\",\"created_time\":\"2018-01-03T16:44:08.12\",\"last_updated_by\":\"7475ad97-3db4-4a1d-873a-b650e23643f6\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"19ee2997-cdf1-4e15-b960-eb7919e00f53\"},{\"row_id\":\"9845e471-5f8d-4d79-8fa6-eec7a07590c1\",\"talent_id\":\"0d4574de-8860-4136-89ba-acc6bddf6273\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"78802ab3-ba19-4c1d-8abd-1eded447ef1e\",\"created_time\":\"2018-01-03T16:45:26.027\",\"last_updated_by\":\"78802ab3-ba19-4c1d-8abd-1eded447ef1e\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"9845e471-5f8d-4d79-8fa6-eec7a07590c1\"}]"
+                    
+ 
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 17:30:14,929 
+线程ID:[10] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+                ControllerName： ResumeController
+                    ActionName： StructuredImportResume
+                      开始时间： 2018/1/3 17:29:53
+                      结束时间： 2018/1/3 17:30:14
+                        总时间： 21.7031701秒
+                    Action参数： 
+                    Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                      客户端IP： ::1,
+                    HttpMethod： GET,
+                      返回信息： "[{\"row_id\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\",\"talent_id\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"11\",\"gender_code\":null,\"marriage_status_code\":null,\"birthday\":null,\"birthday_string\":null,\"id_type_code\":null,\"id_number\":null,\"political_status_code\":null,\"home_phone\":null,\"office_phone\":null,\"msn\":null,\"qq\":\"db408c030de84e9aab71e08cee4c98f1\",\"address\":null,\"post_code\":null,\"current_city_code\":null,\"hukou_city_code\":null,\"nationality_code\":null,\"diploma_code\":null,\"begin_work_date\":null,\"graduate_date\":null,\"highest_school\":null,\"highest_major\":null,\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":null,\"job_apply_status_code\":null,\"created_by\":\"00000000-0000-0000-0000-000000000000\",\"created_time\":null,\"last_updated_by\":\"00000000-0000-0000-0000-000000000000\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"a7799e98-941d-4b1b-b3f3-1ec5059725a8\"},{\"row_id\":\"3a343a43-948e-4a55-aa5f-249e4ad9abbd\",\"talent_id\":\"75c7f156-6257-4666-8597-8cd7a32adc77\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"56736e6d-fa84-4d0c-9e45-d1228edbe7ed\",\"created_time\":\"2018-01-03T16:49:53\",\"last_updated_by\":\"56736e6d-fa84-4d0c-9e45-d1228edbe7ed\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"3a343a43-948e-4a55-aa5f-249e4ad9abbd\"},{\"row_id\":\"b8b2b7cb-0c83-4348-9acc-2b11949410d5\",\"talent_id\":\"bee66fb1-3fcc-46e3-a6d6-2f898f36d2e7\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"c856e534-5ce8-4640-832b-5fb0cbf00024\",\"created_time\":\"2018-01-03T16:11:27.613\",\"last_updated_by\":\"c856e534-5ce8-4640-832b-5fb0cbf00024\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"b8b2b7cb-0c83-4348-9acc-2b11949410d5\"},{\"row_id\":\"e6861fb4-d903-4bca-939f-65a42be1db7b\",\"talent_id\":\"995cc2a9-6b06-4abd-a59a-929aad30fce9\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"26209475-8f36-4237-a10f-47760ecf6eee\",\"created_time\":\"2018-01-03T16:08:20.49\",\"last_updated_by\":\"26209475-8f36-4237-a10f-47760ecf6eee\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"e6861fb4-d903-4bca-939f-65a42be1db7b\"},{\"row_id\":\"f3ac0c41-5225-4e36-98bc-65ad43da9ddc\",\"talent_id\":\"c277a361-52d3-4822-93bd-862de98bb16d\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"7551f302-16a7-42ee-b977-bc54ebf2f8d5\",\"created_time\":\"2018-01-03T16:10:16.017\",\"last_updated_by\":\"7551f302-16a7-42ee-b977-bc54ebf2f8d5\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"f3ac0c41-5225-4e36-98bc-65ad43da9ddc\"},{\"row_id\":\"18c22d26-8188-4a16-a583-6a5c6fb03b62\",\"talent_id\":\"ceb00191-f29b-48b2-8be3-b70ffe1bba59\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"b2494328-f1f8-4e07-9b9b-ca8b905fd69e\",\"created_time\":\"2018-01-03T14:41:43.36\",\"last_updated_by\":\"b2494328-f1f8-4e07-9b9b-ca8b905fd69e\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"18c22d26-8188-4a16-a583-6a5c6fb03b62\"},{\"row_id\":\"bf5affe1-624a-449c-b97d-7aa7f0d0a1d1\",\"talent_id\":\"a22eb3c2-35dc-4b1c-9387-f11899fd63ff\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"c01b9afb-6c69-4ffc-9cc3-39300afa34ea\",\"created_time\":\"2018-01-03T16:49:53\",\"last_updated_by\":\"c01b9afb-6c69-4ffc-9cc3-39300afa34ea\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"bf5affe1-624a-449c-b97d-7aa7f0d0a1d1\"},{\"row_id\":\"d1cd17fd-4d07-4e56-a929-99e0170f90cd\",\"talent_id\":\"e247830b-d196-447c-8ff9-317cd6274eac\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"8199a7a4-216f-48d8-a296-4f1438b5a677\",\"created_time\":\"2018-01-03T16:50:16\",\"last_updated_by\":\"8199a7a4-216f-48d8-a296-4f1438b5a677\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"d1cd17fd-4d07-4e56-a929-99e0170f90cd\"},{\"row_id\":\"c09ecd77-7058-4ac3-8a81-9bc55660ae85\",\"talent_id\":\"1f1657f6-5dd5-4e9d-98f5-93f64718ea8f\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"fd2e5a96-5350-4ae3-9000-c4efc5f92048\",\"created_time\":\"2018-01-03T14:42:38.643\",\"last_updated_by\":\"fd2e5a96-5350-4ae3-9000-c4efc5f92048\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"c09ecd77-7058-4ac3-8a81-9bc55660ae85\"},{\"row_id\":\"6f60d710-9dea-4a7c-a855-eaa670d76d27\",\"talent_id\":\"55e28633-1c16-49f4-98a0-2fac0d2a00ba\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"bccfe884-edbf-45e5-9b15-52fd6ec1fe85\",\"created_time\":\"2018-01-03T16:50:16\",\"last_updated_by\":\"bccfe884-edbf-45e5-9b15-52fd6ec1fe85\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"6f60d710-9dea-4a7c-a855-eaa670d76d27\"},{\"row_id\":\"19ee2997-cdf1-4e15-b960-eb7919e00f53\",\"talent_id\":\"3c332ddd-1b0f-44f5-8307-ffdaed3f9a76\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"7475ad97-3db4-4a1d-873a-b650e23643f6\",\"created_time\":\"2018-01-03T16:44:08.12\",\"last_updated_by\":\"7475ad97-3db4-4a1d-873a-b650e23643f6\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"19ee2997-cdf1-4e15-b960-eb7919e00f53\"},{\"row_id\":\"9845e471-5f8d-4d79-8fa6-eec7a07590c1\",\"talent_id\":\"0d4574de-8860-4136-89ba-acc6bddf6273\",\"resume_language_code\":null,\"resume_title\":null,\"name\":\"张三\",\"gender_code\":\"男\",\"marriage_status_code\":\"已婚\",\"birthday\":\"1991-03-29T00:00:00\",\"birthday_string\":\"1991-3-29\",\"id_type_code\":\"智联\",\"id_number\":\"1234567890\",\"political_status_code\":null,\"home_phone\":\"88888888\",\"office_phone\":null,\"msn\":null,\"qq\":null,\"address\":\"江苏无锡\",\"post_code\":null,\"current_city_code\":\"无锡\",\"hukou_city_code\":\"无锡\",\"nationality_code\":\"中国\",\"diploma_code\":\"本科\",\"begin_work_date\":\"2013-06-01T00:00:00\",\"graduate_date\":\"2013-06-01T00:00:00\",\"highest_school\":\"江苏师范大学\",\"highest_major\":\"软件工程\",\"self_assessment\":null,\"resume_format_code\":null,\"resume_source_code\":null,\"keywords\":\"测试用测试用\",\"job_apply_status_code\":\"正在找工作\",\"created_by\":\"78802ab3-ba19-4c1d-8abd-1eded447ef1e\",\"created_time\":\"2018-01-03T16:45:26.027\",\"last_updated_by\":\"78802ab3-ba19-4c1d-8abd-1eded447ef1e\",\"last_updated_time\":null,\"IsDeletedInDatabase\":false,\"EntityId\":\"9845e471-5f8d-4d79-8fa6-eec7a07590c1\"}]"
+                    
+ 

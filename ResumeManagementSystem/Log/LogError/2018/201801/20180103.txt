@@ -1,0 +1,1103 @@
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 14:09:54,251 
+线程ID:[8] 
+日志级别：  ERROR 
+错误描述：
+                请求【ResumeController】的【StructuredImportResume】产生异常：
+                Action参数： 
+                Http请求头:  Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                  客户端IP:  ::1
+                HttpMethod:  GET
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Resume.Resume.AddResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Resume\Resume.cs:行号 54
+   在 ResumeManagementSystem.Controllers.WebExtensionResumeAPIController.ResumeController.StructuredImportResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ResumeManagementSystem\Controllers\WebExtensionResumeAPIController\ResumeController.cs:行号 14
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass13.<GetExecutor>b__c(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   在 System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken)
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 14:31:08,533 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：
+                请求【ResumeController】的【StructuredImportResume】产生异常：
+                Action参数： 
+                Http请求头:  Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                  客户端IP:  ::1
+                HttpMethod:  GET
+                    
+ 
+System.Exception: 发生错误，SQL语句为：INSERT INTO ResumeModel (row_id,talent_id,resume_language_code,resume_title,name,gender_code,marriage_status_code,birthday,birthday_string,id_type_code,id_number,political_status_code,home_phone,office_phone,msn,qq,address,post_code,current_city_code,hukou_city_code,nationality_code,diploma_code,begin_work_date,graduate_date,highest_school,highest_major,self_assessment,resume_format_code,resume_source_code,keywords,job_apply_status_code,created_by,created_time,last_updated_by,last_updated_time)  VALUES (@row_id
+,@talent_id
+,@resume_language_code
+,@resume_title
+,@name
+,@gender_code
+,@marriage_status_code
+,@birthday
+,@birthday_string
+,@id_type_code
+,@id_number
+,@political_status_code
+,@home_phone
+,@office_phone
+,@msn
+,@qq
+,@address
+,@post_code
+,@current_city_code
+,@hukou_city_code
+,@nationality_code
+,@diploma_code
+,@begin_work_date
+,@graduate_date
+,@highest_school
+,@highest_major
+,@self_assessment
+,@resume_format_code
+,@resume_source_code
+,@keywords
+,@job_apply_status_code
+,@created_by
+,@created_time
+,@last_updated_by
+,@last_updated_time
+ ) 
+实体为：ResumeModel
+row_id:4a6605fb-ed02-4304-9340-606cf259b090 
+talent_id:dc74315d-d4ce-4008-9899-5216cf835117 
+resume_language_code: 
+resume_title: 
+name:张三 
+gender_code:男 
+marriage_status_code:已婚 
+birthday:1991/3/29 0:00:00 
+birthday_string:1991-3-29 
+id_type_code:智联 
+id_number:1234567890 
+political_status_code: 
+home_phone:88888888 
+office_phone: 
+msn: 
+qq: 
+address:江苏无锡 
+post_code: 
+current_city_code:无锡 
+hukou_city_code:无锡 
+nationality_code:中国 
+diploma_code:本科 
+begin_work_date:2013/6/1 0:00:00 
+graduate_date:2013/6/1 0:00:00 
+highest_school:江苏师范大学 
+highest_major:软件工程 
+self_assessment: 
+resume_format_code: 
+resume_source_code: 
+keywords:测试用测试用 
+job_apply_status_code:正在找工作 
+created_by:87bc8afa-2cea-4715-829f-dc72c629099b 
+created_time:2018/1/3 14:30:00 
+last_updated_by: 
+last_updated_time: 
+IsDeletedInDatabase:False 
+EntityId:0 
+ ---> System.Data.SqlClient.SqlException: Invalid object name 'ResumeModel'.
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 RTF.Data.SqlMapper.<QueryInternal>d__d`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 RTF.Data.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Infrastructure.DataAccess.SqlServerDataAccess.AddEntity(BaseEntity entity) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\DataAccess\SqlServerDataAccess.cs:行号 255
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Infrastructure.DataAccess.SqlServerDataAccess.AddEntity(BaseEntity entity) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\DataAccess\SqlServerDataAccess.cs:行号 268
+   在 DatabaseService.ResumeService.ResumeDb.AddResume(ResumeModel model) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\ResumeService\ResumeDb.cs:行号 18
+   在 Resume.Resume.AddResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Resume\Resume.cs:行号 44
+   在 ResumeManagementSystem.Controllers.WebExtensionResumeAPIController.ResumeController.StructuredImportResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ResumeManagementSystem\Controllers\WebExtensionResumeAPIController\ResumeController.cs:行号 14
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass13.<GetExecutor>b__c(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   在 System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken)
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 14:34:26,274 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：
+                请求【ResumeController】的【StructuredImportResume】产生异常：
+                Action参数： 
+                Http请求头:  Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                  客户端IP:  ::1
+                HttpMethod:  GET
+                    
+ 
+System.Exception: 发生错误，SQL语句为：INSERT INTO ResumeModel (row_id,talent_id,resume_language_code,resume_title,name,gender_code,marriage_status_code,birthday,birthday_string,id_type_code,id_number,political_status_code,home_phone,office_phone,msn,qq,address,post_code,current_city_code,hukou_city_code,nationality_code,diploma_code,begin_work_date,graduate_date,highest_school,highest_major,self_assessment,resume_format_code,resume_source_code,keywords,job_apply_status_code,created_by,created_time,last_updated_by,last_updated_time)  VALUES (@row_id
+,@talent_id
+,@resume_language_code
+,@resume_title
+,@name
+,@gender_code
+,@marriage_status_code
+,@birthday
+,@birthday_string
+,@id_type_code
+,@id_number
+,@political_status_code
+,@home_phone
+,@office_phone
+,@msn
+,@qq
+,@address
+,@post_code
+,@current_city_code
+,@hukou_city_code
+,@nationality_code
+,@diploma_code
+,@begin_work_date
+,@graduate_date
+,@highest_school
+,@highest_major
+,@self_assessment
+,@resume_format_code
+,@resume_source_code
+,@keywords
+,@job_apply_status_code
+,@created_by
+,@created_time
+,@last_updated_by
+,@last_updated_time
+ ) 
+实体为：ResumeModel
+row_id:6695a6e5-eb65-4d98-8606-8d1bca244c8a 
+talent_id:faccb2e7-ac8c-43cb-9efe-653d0e16395d 
+resume_language_code: 
+resume_title: 
+name:张三 
+gender_code:男 
+marriage_status_code:已婚 
+birthday:1991/3/29 0:00:00 
+birthday_string:1991-3-29 
+id_type_code:智联 
+id_number:1234567890 
+political_status_code: 
+home_phone:88888888 
+office_phone: 
+msn: 
+qq: 
+address:江苏无锡 
+post_code: 
+current_city_code:无锡 
+hukou_city_code:无锡 
+nationality_code:中国 
+diploma_code:本科 
+begin_work_date:2013/6/1 0:00:00 
+graduate_date:2013/6/1 0:00:00 
+highest_school:江苏师范大学 
+highest_major:软件工程 
+self_assessment: 
+resume_format_code: 
+resume_source_code: 
+keywords:测试用测试用 
+job_apply_status_code:正在找工作 
+created_by:39b4c5eb-fa6d-4f6a-9b3d-9280bd5d052b 
+created_time:2018/1/3 14:33:30 
+last_updated_by: 
+last_updated_time: 
+IsDeletedInDatabase:False 
+EntityId:0 
+ ---> System.Data.SqlClient.SqlException: Invalid object name 'ResumeModel'.
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 RTF.Data.SqlMapper.<QueryInternal>d__d`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 RTF.Data.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Infrastructure.DataAccess.SqlServerDataAccess.AddEntity(BaseEntity entity) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\DataAccess\SqlServerDataAccess.cs:行号 255
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Infrastructure.DataAccess.SqlServerDataAccess.AddEntity(BaseEntity entity) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\DataAccess\SqlServerDataAccess.cs:行号 268
+   在 DatabaseService.ResumeService.ResumeDb.AddResume(ResumeModel model) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\ResumeService\ResumeDb.cs:行号 18
+   在 Resume.Resume.AddResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Resume\Resume.cs:行号 44
+   在 ResumeManagementSystem.Controllers.WebExtensionResumeAPIController.ResumeController.StructuredImportResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ResumeManagementSystem\Controllers\WebExtensionResumeAPIController\ResumeController.cs:行号 14
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass13.<GetExecutor>b__c(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   在 System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken)
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 14:38:06,770 
+线程ID:[11] 
+日志级别：  ERROR 
+错误描述：
+                请求【ResumeController】的【StructuredImportResume】产生异常：
+                Action参数： 
+                Http请求头:  Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                  客户端IP:  ::1
+                HttpMethod:  GET
+                    
+ 
+System.Exception: 发生错误，SQL语句为：INSERT INTO resume (row_id,talent_id,resume_language_code,resume_title,name,gender_code,marriage_status_code,birthday,birthday_string,id_type_code,id_number,political_status_code,home_phone,office_phone,msn,qq,address,post_code,current_city_code,hukou_city_code,nationality_code,diploma_code,begin_work_date,graduate_date,highest_school,highest_major,self_assessment,resume_format_code,resume_source_code,keywords,job_apply_status_code,created_by,created_time,last_updated_by,last_updated_time)  VALUES (@row_id
+,@talent_id
+,@resume_language_code
+,@resume_title
+,@name
+,@gender_code
+,@marriage_status_code
+,@birthday
+,@birthday_string
+,@id_type_code
+,@id_number
+,@political_status_code
+,@home_phone
+,@office_phone
+,@msn
+,@qq
+,@address
+,@post_code
+,@current_city_code
+,@hukou_city_code
+,@nationality_code
+,@diploma_code
+,@begin_work_date
+,@graduate_date
+,@highest_school
+,@highest_major
+,@self_assessment
+,@resume_format_code
+,@resume_source_code
+,@keywords
+,@job_apply_status_code
+,@created_by
+,@created_time
+,@last_updated_by
+,@last_updated_time
+ ) 
+实体为：ResumeModel
+row_id:4a25eda2-7e7c-4b1e-b797-bec1d4fbe16e 
+talent_id:af4f1fc5-bf64-43e2-a438-5071ee0fc744 
+resume_language_code: 
+resume_title: 
+name:张三 
+gender_code:男 
+marriage_status_code:已婚 
+birthday:1991/3/29 0:00:00 
+birthday_string:1991-3-29 
+id_type_code:智联 
+id_number:1234567890 
+political_status_code: 
+home_phone:88888888 
+office_phone: 
+msn: 
+qq: 
+address:江苏无锡 
+post_code: 
+current_city_code:无锡 
+hukou_city_code:无锡 
+nationality_code:中国 
+diploma_code:本科 
+begin_work_date:2013/6/1 0:00:00 
+graduate_date:2013/6/1 0:00:00 
+highest_school:江苏师范大学 
+highest_major:软件工程 
+self_assessment: 
+resume_format_code: 
+resume_source_code: 
+keywords:测试用测试用 
+job_apply_status_code:正在找工作 
+created_by:76a8a370-21fb-468e-a639-890593019a0c 
+created_time:2018/1/3 14:36:17 
+last_updated_by: 
+last_updated_time: 
+IsDeletedInDatabase:False 
+EntityId:0 
+ ---> System.Data.SqlClient.SqlException: Conversion failed when converting from a character string to uniqueidentifier.
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 RTF.Data.SqlMapper.<QueryInternal>d__d`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 RTF.Data.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Infrastructure.DataAccess.SqlServerDataAccess.AddEntity(BaseEntity entity) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\DataAccess\SqlServerDataAccess.cs:行号 255
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Infrastructure.DataAccess.SqlServerDataAccess.AddEntity(BaseEntity entity) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\DataAccess\SqlServerDataAccess.cs:行号 268
+   在 DatabaseService.ResumeService.ResumeDb.AddResume(ResumeModel model) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\ResumeService\ResumeDb.cs:行号 18
+   在 Resume.Resume.AddResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Resume\Resume.cs:行号 44
+   在 ResumeManagementSystem.Controllers.WebExtensionResumeAPIController.ResumeController.StructuredImportResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ResumeManagementSystem\Controllers\WebExtensionResumeAPIController\ResumeController.cs:行号 14
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass13.<GetExecutor>b__c(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   在 System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken)
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 14:40:14,518 
+线程ID:[13] 
+日志级别：  ERROR 
+错误描述：
+                请求【ResumeController】的【StructuredImportResume】产生异常：
+                Action参数： 
+                Http请求头:  Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                  客户端IP:  ::1
+                HttpMethod:  GET
+                    
+ 
+System.Exception: 发生错误，SQL语句为：INSERT INTO resume (row_id,talent_id,resume_language_code,resume_title,name,gender_code,marriage_status_code,birthday,birthday_string,id_type_code,id_number,political_status_code,home_phone,office_phone,msn,qq,address,post_code,current_city_code,hukou_city_code,nationality_code,diploma_code,begin_work_date,graduate_date,highest_school,highest_major,self_assessment,resume_format_code,resume_source_code,keywords,job_apply_status_code,created_by,created_time,last_updated_by,last_updated_time)  VALUES (@row_id
+,@talent_id
+,@resume_language_code
+,@resume_title
+,@name
+,@gender_code
+,@marriage_status_code
+,@birthday
+,@birthday_string
+,@id_type_code
+,@id_number
+,@political_status_code
+,@home_phone
+,@office_phone
+,@msn
+,@qq
+,@address
+,@post_code
+,@current_city_code
+,@hukou_city_code
+,@nationality_code
+,@diploma_code
+,@begin_work_date
+,@graduate_date
+,@highest_school
+,@highest_major
+,@self_assessment
+,@resume_format_code
+,@resume_source_code
+,@keywords
+,@job_apply_status_code
+,@created_by
+,@created_time
+,@last_updated_by
+,@last_updated_time
+ ) 
+实体为：ResumeModel
+row_id:4bbd13d7-8902-47fa-afd0-fb650400d123 
+talent_id:3a2e2f32-330e-408e-a5d1-19e0dff00e08 
+resume_language_code: 
+resume_title: 
+name:张三 
+gender_code:男 
+marriage_status_code:已婚 
+birthday:1991/3/29 0:00:00 
+birthday_string:1991-3-29 
+id_type_code:智联 
+id_number:1234567890 
+political_status_code: 
+home_phone:88888888 
+office_phone: 
+msn: 
+qq: 
+address:江苏无锡 
+post_code: 
+current_city_code:无锡 
+hukou_city_code:无锡 
+nationality_code:中国 
+diploma_code:本科 
+begin_work_date:2013/6/1 0:00:00 
+graduate_date:2013/6/1 0:00:00 
+highest_school:江苏师范大学 
+highest_major:软件工程 
+self_assessment: 
+resume_format_code: 
+resume_source_code: 
+keywords:测试用测试用 
+job_apply_status_code:正在找工作 
+created_by:a7799e98-941d-4b1b-b3f3-1ec5059725a8 
+created_time:2018/1/3 14:39:21 
+last_updated_by: 
+last_updated_time: 
+IsDeletedInDatabase:False 
+EntityId:0 
+ ---> System.Data.SqlClient.SqlException: Conversion failed when converting from a character string to uniqueidentifier.
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 RTF.Data.SqlMapper.<QueryInternal>d__d`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 RTF.Data.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Infrastructure.DataAccess.SqlServerDataAccess.AddEntity(BaseEntity entity) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\DataAccess\SqlServerDataAccess.cs:行号 255
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Infrastructure.DataAccess.SqlServerDataAccess.AddEntity(BaseEntity entity) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\DataAccess\SqlServerDataAccess.cs:行号 268
+   在 DatabaseService.ResumeService.ResumeDb.AddResume(ResumeModel model) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\ResumeService\ResumeDb.cs:行号 18
+   在 Resume.Resume.AddResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Resume\Resume.cs:行号 44
+   在 ResumeManagementSystem.Controllers.WebExtensionResumeAPIController.ResumeController.StructuredImportResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ResumeManagementSystem\Controllers\WebExtensionResumeAPIController\ResumeController.cs:行号 14
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass13.<GetExecutor>b__c(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   在 System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken)
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 14:44:11,767 
+线程ID:[10] 
+日志级别：  ERROR 
+错误描述：
+                请求【ResumeController】的【StructuredImportResume】产生异常：
+                Action参数： 
+                Http请求头:  Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                  客户端IP:  ::1
+                HttpMethod:  GET
+                    
+ 
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.InvalidCastException: 指定的转换无效。
+   在 Models.BaseEntity.get_EntityId() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Models\BaseEntity.cs:行号 23
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.GetValue(Object obj, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   在 System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   在 Models.BaseEntity.ToString() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Models\BaseEntity.cs:行号 40
+   在 System.String.Concat(Object[] args)
+   在 Infrastructure.DataAccess.SqlServerDataAccess.AddEntity(BaseEntity entity) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\DataAccess\SqlServerDataAccess.cs:行号 268
+   在 DatabaseService.ResumeService.ResumeDb.AddResume(ResumeModel model) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\ResumeService\ResumeDb.cs:行号 18
+   在 Resume.Resume.AddResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Resume\Resume.cs:行号 45
+   在 ResumeManagementSystem.Controllers.WebExtensionResumeAPIController.ResumeController.StructuredImportResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ResumeManagementSystem\Controllers\WebExtensionResumeAPIController\ResumeController.cs:行号 14
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass13.<GetExecutor>b__c(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   在 System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken)
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 14:54:39,300 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：
+                请求【ResumeController】的【StructuredImportResume】产生异常：
+                Action参数： 
+                Http请求头:  Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                  客户端IP:  ::1
+                HttpMethod:  GET
+                    
+ 
+System.ArgumentException: 已添加了具有相同键的项。
+   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 Infrastructure.DataAccess.SqlServerDataAccess.GenerateInsertSql(Type type) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\DataAccess\SqlServerDataAccess.cs:行号 949
+   在 Infrastructure.DataAccess.SqlServerDataAccess.AddEntity(BaseEntity entity) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\DataAccess\SqlServerDataAccess.cs:行号 250
+   在 DatabaseService.ResumeService.ResumeDb.AddResume(ResumeModel model) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\ResumeService\ResumeDb.cs:行号 18
+   在 Resume.Resume.AddResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Resume\Resume.cs:行号 45
+   在 ResumeManagementSystem.Controllers.WebExtensionResumeAPIController.ResumeController.StructuredImportResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ResumeManagementSystem\Controllers\WebExtensionResumeAPIController\ResumeController.cs:行号 14
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass13.<GetExecutor>b__c(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   在 System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken)
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:28:04,419 
+线程ID:[8] 
+日志级别：  ERROR 
+错误描述：
+                请求【ResumeController】的【StructuredImportResume】产生异常：
+                Action参数： 
+                Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                  客户端IP： ::1
+                HttpMethod： GET
+                    
+ 
+System.Data.DataException: Error parsing column 0 (row_id=a7799e98-941d-4b1b-b3f3-1ec5059725a8 - Object) ---> System.InvalidCastException: 对象必须实现 IConvertible。
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 Deserializeda8726c4-327d-4ad4-9d07-47cc1cec245d(IDataReader )
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 RTF.Data.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader)
+   在 Deserializeda8726c4-327d-4ad4-9d07-47cc1cec245d(IDataReader )
+   在 RTF.Data.SqlMapper.<QueryInternal>d__d`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 RTF.Data.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Infrastructure.DataAccess.SqlServerDataAccess.GetList[T](String strWhere, Object param) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\DataAccess\SqlServerDataAccess.cs:行号 492
+   在 DatabaseService.ResumeService.ResumeDb.GetResumeList(String where) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\ResumeService\ResumeDb.cs:行号 23
+   在 Resume.Resume.GetResumeList() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Resume\Resume.cs:行号 51
+   在 ResumeManagementSystem.Controllers.WebExtensionResumeAPIController.ResumeController.StructuredImportResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ResumeManagementSystem\Controllers\WebExtensionResumeAPIController\ResumeController.cs:行号 17
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass13.<GetExecutor>b__c(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   在 System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken)
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:29:59,587 
+线程ID:[9] 
+日志级别：  ERROR 
+错误描述：
+                请求【ResumeController】的【StructuredImportResume】产生异常：
+                Action参数： 
+                Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                  客户端IP： ::1
+                HttpMethod： GET
+                    
+ 
+System.Data.DataException: Error parsing column 0 (row_id=a7799e98-941d-4b1b-b3f3-1ec5059725a8 - Object) ---> System.InvalidCastException: 对象必须实现 IConvertible。
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 Deserializeda8726c4-327d-4ad4-9d07-47cc1cec245d(IDataReader )
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 RTF.Data.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader)
+   在 Deserializeda8726c4-327d-4ad4-9d07-47cc1cec245d(IDataReader )
+   在 RTF.Data.SqlMapper.<QueryInternal>d__d`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 RTF.Data.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Infrastructure.DataAccess.SqlServerDataAccess.GetList[T](String strWhere, Object param) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\DataAccess\SqlServerDataAccess.cs:行号 492
+   在 DatabaseService.ResumeService.ResumeDb.GetResumeList(String where) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\ResumeService\ResumeDb.cs:行号 23
+   在 Resume.Resume.GetResumeList() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Resume\Resume.cs:行号 51
+   在 ResumeManagementSystem.Controllers.WebExtensionResumeAPIController.ResumeController.StructuredImportResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ResumeManagementSystem\Controllers\WebExtensionResumeAPIController\ResumeController.cs:行号 17
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass13.<GetExecutor>b__c(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   在 System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken)
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:34:08,549 
+线程ID:[13] 
+日志级别：  ERROR 
+错误描述：
+                请求【ResumeController】的【StructuredImportResume】产生异常：
+                Action参数： 
+                Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                  客户端IP： ::1
+                HttpMethod： GET
+                    
+ 
+System.Data.DataException: Error parsing column 0 (row_id=a7799e98-941d-4b1b-b3f3-1ec5059725a8 - Object) ---> System.InvalidCastException: 对象必须实现 IConvertible。
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 Deserializeda8726c4-327d-4ad4-9d07-47cc1cec245d(IDataReader )
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 RTF.Data.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader)
+   在 Deserializeda8726c4-327d-4ad4-9d07-47cc1cec245d(IDataReader )
+   在 RTF.Data.SqlMapper.<QueryInternal>d__d`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 RTF.Data.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Infrastructure.DataAccess.SqlServerDataAccess.GetList[T](String strWhere, Object param) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\DataAccess\SqlServerDataAccess.cs:行号 492
+   在 DatabaseService.ResumeService.ResumeDb.GetResumeList(String where) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\ResumeService\ResumeDb.cs:行号 23
+   在 Resume.Resume.GetResumeList() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Resume\Resume.cs:行号 51
+   在 ResumeManagementSystem.Controllers.WebExtensionResumeAPIController.ResumeController.StructuredImportResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ResumeManagementSystem\Controllers\WebExtensionResumeAPIController\ResumeController.cs:行号 17
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass13.<GetExecutor>b__c(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   在 System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken)
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:36:42,565 
+线程ID:[12] 
+日志级别：  ERROR 
+错误描述：
+                请求【ResumeController】的【StructuredImportResume】产生异常：
+                Action参数： 
+                Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                  客户端IP： ::1
+                HttpMethod： GET
+                    
+ 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '1'.
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 RTF.Data.SqlMapper.<QueryInternal>d__d`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 RTF.Data.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Infrastructure.DataAccess.SqlServerDataAccess.FetchListBySql[T](String sql, Object parameters) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\DataAccess\SqlServerDataAccess.cs:行号 655
+   在 DatabaseService.ResumeService.ResumeDb.GetResumeList(String where) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\ResumeService\ResumeDb.cs:行号 23
+   在 Resume.Resume.GetResumeList() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Resume\Resume.cs:行号 51
+   在 ResumeManagementSystem.Controllers.WebExtensionResumeAPIController.ResumeController.StructuredImportResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ResumeManagementSystem\Controllers\WebExtensionResumeAPIController\ResumeController.cs:行号 17
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass13.<GetExecutor>b__c(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   在 System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken)
+ClientConnectionId:4af71f4d-0e77-4659-ba08-8e0e6593d7d5
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:40:38,151 
+线程ID:[9] 
+日志级别：  ERROR 
+错误描述：
+                请求【ResumeController】的【StructuredImportResume】产生异常：
+                Action参数： 
+                Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                  客户端IP： ::1
+                HttpMethod： GET
+                    
+ 
+System.Data.DataException: Error parsing column 0 (row_id=a7799e98-941d-4b1b-b3f3-1ec5059725a8 - Object) ---> System.InvalidCastException: 对象必须实现 IConvertible。
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 Deserialize0c94de16-9739-4d52-ad6d-8e7ab2bc5656(IDataReader )
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 RTF.Data.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader)
+   在 Deserialize0c94de16-9739-4d52-ad6d-8e7ab2bc5656(IDataReader )
+   在 RTF.Data.SqlMapper.<QueryInternal>d__d`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 RTF.Data.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Infrastructure.DataAccess.SqlServerDataAccess.FetchListBySql[T](String sql, Object parameters) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\DataAccess\SqlServerDataAccess.cs:行号 655
+   在 DatabaseService.ResumeService.ResumeDb.GetResumeList(String where) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\ResumeService\ResumeDb.cs:行号 24
+   在 Resume.Resume.GetResumeList() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Resume\Resume.cs:行号 51
+   在 ResumeManagementSystem.Controllers.WebExtensionResumeAPIController.ResumeController.StructuredImportResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ResumeManagementSystem\Controllers\WebExtensionResumeAPIController\ResumeController.cs:行号 17
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass13.<GetExecutor>b__c(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   在 System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken)
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:41:47,605 
+线程ID:[10] 
+日志级别：  ERROR 
+错误描述：
+                请求【ResumeController】的【StructuredImportResume】产生异常：
+                Action参数： 
+                Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                  客户端IP： ::1
+                HttpMethod： GET
+                    
+ 
+System.Data.DataException: Error parsing column 1 (talent_id=a7799e98-941d-4b1b-b3f3-1ec5059725a8 - Object) ---> System.InvalidCastException: 对象必须实现 IConvertible。
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 System.Convert.ChangeType(Object value, Type conversionType)
+   在 Deserialize04215fae-2c30-4369-af0e-620a106cd930(IDataReader )
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 RTF.Data.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader)
+   在 Deserialize04215fae-2c30-4369-af0e-620a106cd930(IDataReader )
+   在 RTF.Data.SqlMapper.<QueryInternal>d__d`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 RTF.Data.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Infrastructure.DataAccess.SqlServerDataAccess.FetchListBySql[T](String sql, Object parameters) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\DataAccess\SqlServerDataAccess.cs:行号 655
+   在 DatabaseService.ResumeService.ResumeDb.GetResumeList(String where) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\ResumeService\ResumeDb.cs:行号 24
+   在 Resume.Resume.GetResumeList() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Resume\Resume.cs:行号 51
+   在 ResumeManagementSystem.Controllers.WebExtensionResumeAPIController.ResumeController.StructuredImportResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ResumeManagementSystem\Controllers\WebExtensionResumeAPIController\ResumeController.cs:行号 17
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass13.<GetExecutor>b__c(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   在 System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken)
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:44:27,590 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：
+                请求【ResumeController】的【StructuredImportResume】产生异常：
+                Action参数： 
+                Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                  客户端IP： ::1
+                HttpMethod： GET
+                    
+ 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '1'.
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 RTF.Data.SqlMapper.<QueryInternal>d__d`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 RTF.Data.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Infrastructure.DataAccess.SqlServerDataAccess.FetchListBySql[T](String sql, Object parameters) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\DataAccess\SqlServerDataAccess.cs:行号 655
+   在 DatabaseService.ResumeService.ResumeDb.GetResumeList(String where) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\ResumeService\ResumeDb.cs:行号 23
+   在 Resume.Resume.GetResumeList() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Resume\Resume.cs:行号 51
+   在 ResumeManagementSystem.Controllers.WebExtensionResumeAPIController.ResumeController.StructuredImportResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ResumeManagementSystem\Controllers\WebExtensionResumeAPIController\ResumeController.cs:行号 17
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass13.<GetExecutor>b__c(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   在 System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken)
+ClientConnectionId:680faa3b-374c-4214-9beb-6d14bd9d8023
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:56:28,798 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：
+                请求【ResumeController】的【StructuredImportResume】产生异常：
+                Action参数： 
+                Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                  客户端IP： ::1
+                HttpMethod： GET
+                    
+ 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'd'.
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 RTF.Data.SqlMapper.<QueryInternal>d__d`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 RTF.Data.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Infrastructure.DataAccess.SqlServerDataAccess.GetList[T](String strWhere, Object param) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\DataAccess\SqlServerDataAccess.cs:行号 492
+   在 Infrastructure.DataAccess.SqlServerDataAccess.Get[T](String id, String primaryKeyField) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\DataAccess\SqlServerDataAccess.cs:行号 384
+   在 DatabaseService.ResumeService.ResumeDb.GetResumeById(String id) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\ResumeService\ResumeDb.cs:行号 34
+   在 Resume.ResumeManage.GetResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Resume\ResumeManage.cs:行号 95
+   在 ResumeManagementSystem.Controllers.WebExtensionResumeAPIController.ResumeController.StructuredImportResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ResumeManagementSystem\Controllers\WebExtensionResumeAPIController\ResumeController.cs:行号 19
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass13.<GetExecutor>b__c(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   在 System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken)
+ClientConnectionId:5bea306a-cc43-48d2-8673-6549464128c2
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 16:57:24,577 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：
+                请求【ResumeController】的【StructuredImportResume】产生异常：
+                Action参数： 
+                Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                  客户端IP： ::1
+                HttpMethod： GET
+                    
+ 
+System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'd'.
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   在 RTF.Data.SqlMapper.<QueryInternal>d__d`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 RTF.Data.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   在 Infrastructure.DataAccess.SqlServerDataAccess.GetList[T](String strWhere, Object param) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\DataAccess\SqlServerDataAccess.cs:行号 492
+   在 Infrastructure.DataAccess.SqlServerDataAccess.Get[T](String id, String primaryKeyField) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\DataAccess\SqlServerDataAccess.cs:行号 384
+   在 DatabaseService.ResumeService.ResumeDb.GetResumeById(String id) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\ResumeService\ResumeDb.cs:行号 34
+   在 Resume.ResumeManage.GetResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Resume\ResumeManage.cs:行号 95
+   在 ResumeManagementSystem.Controllers.WebExtensionResumeAPIController.ResumeController.StructuredImportResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ResumeManagementSystem\Controllers\WebExtensionResumeAPIController\ResumeController.cs:行号 19
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass13.<GetExecutor>b__c(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   在 System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken)
+ClientConnectionId:2f3a70b3-70c1-43ce-9aba-ee599f6f1f1c
+
+
+
+------------------------------------------------------
+
+ 
+记录时间：2018-01-03 17:29:17,371 
+线程ID:[9] 
+日志级别：  ERROR 
+错误描述：
+                请求【ResumeController】的【StructuredImportResume】产生异常：
+                Action参数： 
+                Http请求头： Connection: keep-alive
+Accept: text/html, application/xhtml+xml, application/xml; q=0.9, */*; q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN, zh; q=0.8, zh-TW; q=0.7, zh-HK; q=0.5, en-US; q=0.3, en; q=0.2
+Cookie: _pk_id.28.1fff=52140a82d2a06a4c.1501122332.2.1503646010.1501122332.
+Host: localhost:5438
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0
+Upgrade-Insecure-Requests: 1
+
+                  客户端IP： ::1
+                HttpMethod： GET
+                    
+ 
+System.InvalidCastException: 无法将类型为“System.Guid”的对象强制转换为类型“System.String”。
+   在 Models.BaseEntity.get_EntityId() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Models\BaseEntity.cs:行号 33
+   在 Infrastructure.DataAccess.SqlServerDataAccess.GetListByEntityIds[T](IEnumerable`1 entityIds) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Infrastructure\DataAccess\SqlServerDataAccess.cs:行号 543
+   在 DatabaseService.ResumeService.ResumeDb.GetResumeListById(IEnumerable`1 ids) 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\DatabaseService\ResumeService\ResumeDb.cs:行号 44
+   在 Resume.ResumeManage.GetResumeListById() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Resume\ResumeManage.cs:行号 110
+   在 ResumeManagementSystem.Controllers.WebExtensionResumeAPIController.ResumeController.StructuredImportResume() 位置 e:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ResumeManagementSystem\Controllers\WebExtensionResumeAPIController\ResumeController.cs:行号 25
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass13.<GetExecutor>b__c(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.<>c__DisplayClass5.<ExecuteAsync>b__4()
+   在 System.Threading.Tasks.TaskHelpers.RunSynchronously[TResult](Func`1 func, CancellationToken cancellationToken)
