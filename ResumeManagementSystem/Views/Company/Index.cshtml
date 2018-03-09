@@ -1,0 +1,61 @@
+﻿@{
+    Layout = "~/Views/Shared/_SystemManageLayout.cshtml";
+}
+@section head{
+    <script type="text/javascript">
+        function InitDataList() {
+            var url = '@Url.Action("GetCompanyList", "Company")?'
+                + "companyName=" + escape($("#companyName").val().trim());
+            $("#data1").show();
+            $("#dataList1").JsRenderData({
+                sourceUrl: url,
+                isPage: true,
+                pageSize: 20,
+                pageIndex: 1,
+                templateID: "actionListTemplate",
+                funCallback: function (dd) {
+                }
+            });
+        }
+
+        function AddNewCompany() {
+            window.location.href = "@Url.Action("AddCompany","Company")";
+        }
+    </script>
+}
+
+<div>
+    <div style="margin-top: 10px">
+        <div>
+            <label>公司名称 :</label>
+            <input type="text" name="companyName" id="companyName" maxlength="20" style="width: 100px"/>
+        </div>
+    </div>
+    <div style="margin-top: 10px">
+        <input type="button" onclick=" InitDataList() " value="查询" />
+        <input type="button" onclick=" AddNewCompany() " value="新建公司" />
+    </div>
+</div>
+<div id="data1" style="margin-top: 20px; display: none">
+    <table id="list" class="">
+        <thead>
+            <tr>
+                <th style="width: 3%">序号</th>
+                <th style="width: 97%">公司名称</th>
+            </tr>
+        </thead>
+        <tbody id="dataList1">
+        </tbody>
+        <tfoot>
+        </tfoot>
+    </table>
+</div>
+
+<script type="text/x-jsrender" id="actionListTemplate">
+{{for #data}}
+    <tr id="{{:company_id}}">
+        <td>{{>RowIndex}}</td>
+        <td title="{{>company_name}}">{{>company_name.length > 5 ? company_name.substring(0,5) + "..." : company_name}}</td>
+    </tr>
+{{/for}}
+</script>

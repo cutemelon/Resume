@@ -1,0 +1,62 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>系统管理</title>
+        
+        <link rel="stylesheet" type="text/css" href="~/Css/menu.css"/>
+        <link href="~/Css/style.css" rel="stylesheet">
+
+        <script type="text/javascript" src="~/Scripts/jquery-1.8.1.min.js"> </script>
+        <script type="text/javascript" src="~/Scripts/common.js"> </script>
+        <script type="text/javascript" src="~/Scripts/Validform_v5.3.2.yui.js"></script>
+        <script type="text/javascript" src="~/Scripts/jquery.form3.5.js"></script>
+        
+        <script type="text/javascript">
+            function submitForm() {
+                $("#loginForm").ajaxSubmit(function (data) {
+                    if (typeof (data) == "string") {
+                        data = JSON.parse(data);
+                    }
+                    if (data.result == 1) {
+                        window.location = "@Url.Action("Index","User")";
+                    } else {
+                        alert(data.msg);
+                    }
+                });
+            }
+        </script>
+    </head>
+    <body>
+        <form id="loginForm" method="post" action="@Url.Action("UserLogin","Login")" enctype="multipart/form-data" onsubmit="return false;">
+            <div style="margin-top: 10px">
+                <div>
+                    <label>公司名 :</label>
+                    <input type="text" name="companyName" id="companyName" datatype="*1-30" nullmsg="请填写公司名"/>
+                </div>
+            </div>
+            <div style="margin-top: 10px">
+                <div>
+                    <label>登录名 :</label>
+                    <input type="text" name="account" id="account" datatype="*1-30" nullmsg="请填写账号"/>
+                </div>
+            </div>
+            <div style="margin-top: 10px">
+                <div>
+                    <label>密码 :</label>
+                    <input type="password" name="password" id="password" datatype="*1-30" nullmsg="请填写密码"/>
+                </div>
+            </div>
+            <div style="margin-top: 10px">
+                <div>
+                    <input type="submit" id="btnSave" onclick=" return submitForm(); " value="登录" />
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
