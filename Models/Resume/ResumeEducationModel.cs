@@ -11,7 +11,7 @@ namespace Models.Resume
     public class ResumeEducationModel : BaseEntity
     {
         [GuidIdentity]
-        public Guid resume_id { get; set; }
+        public string resume_id { get; set; }
 
         public string start_time { get; set; }
         public string end_time { get; set; }

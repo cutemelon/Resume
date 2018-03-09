@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,7 +12,19 @@ namespace DatabaseService.SystemService
 {
     public class UserDb : IUserDb
     {
-        private readonly IBaseDataAccess _dataAccess = BaseDataAccess.DataAccess;
+        private readonly IBaseDataAccess _dataAccess;
+
+        public UserDb(string connectionStr)
+        {
+            if (string.IsNullOrWhiteSpace(connectionStr))
+            {
+                _dataAccess = BaseDataAccess.DataAccess;
+            }
+            else
+            {
+                _dataAccess = new SqlServerDataAccess(connectionStr);
+            }
+        }
 
         /// <summary>
         /// 添加用户
@@ -49,7 +62,7 @@ namespace DatabaseService.SystemService
         /// <returns></returns>
         public UserModel GetUserByUsername(string userName)
         {
-            var sql = string.Format("select * from user where username='{0}' ", userName);
+            var sql = string.Format("select * from userInfo where username='{0}' and status=0", userName);
             return _dataAccess.FetchListBySql<UserModel>(sql).FirstOrDefault();
         }
 

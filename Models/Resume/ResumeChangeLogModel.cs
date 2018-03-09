@@ -11,12 +11,12 @@ namespace Models.Resume
     public class ResumeChangeLogModel : BaseEntity
     {
         [GuidIdentity]
-        public Guid row_id { get; set; }
+        public string row_id { get; set; }
 
-        public Guid resume_id { get; set; }
-        public Guid tenant_id { get; set; }
+        public string resume_id { get; set; }
+        public string company_id { get; set; }
         public string change_log { get; set; }
-        public Guid created_by { get; set; }
+        public string created_by { get; set; }
         public DateTime? created_time { get; set; }
     }
 }

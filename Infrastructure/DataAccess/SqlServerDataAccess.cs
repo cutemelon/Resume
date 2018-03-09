@@ -240,6 +240,10 @@ FROM    ( SELECT  {4},  ROW_NUMBER() OVER ( {1} ) AS RowIndex
                 {
                     pk = propertyInfo;
                 }
+                if (GuidIdentityAttribute.GetAttribute(propertyInfo) != null)
+                {
+                    pk = propertyInfo;
+                }
                 if (ExcludeFieldAttribute.GetAttribute(propertyInfo) != null) continue;
 
                 ps.Add(propertyInfo.Name, propertyInfo.GetValue(entity, null));
@@ -882,6 +886,12 @@ FROM    ( SELECT  {4},  ROW_NUMBER() OVER ( {1} ) AS RowIndex
                 if (exclude != null) continue;
                 IdentityAttribute identity = IdentityAttribute.GetAttribute(info);
                 if (identity != null)
+                {
+                    hasIdentityField = true;
+                    continue;
+                }
+                GuidIdentityAttribute guidIdentity = GuidIdentityAttribute.GetAttribute(info);
+                if (guidIdentity != null)
                 {
                     hasIdentityField = true;
                     continue;

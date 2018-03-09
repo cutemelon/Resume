@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
-using ResumeManagementSystem.Filter;
+using MvcExtend.Filter;
 
 namespace ResumeManagementSystem
 {
@@ -15,7 +15,6 @@ namespace ResumeManagementSystem
                 routeTemplate: "api/{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = RouteParameter.Optional }
             );
-            config.Filters.Add(new ServiceFilter());
         }
     }
 }

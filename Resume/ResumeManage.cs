@@ -16,7 +16,7 @@ namespace Resume
     {
         private IResumeDb resumeDb;
 
-        public void AddResume(StructuredResumeModel structuredResumeModel, UserModel user)
+        public void AddOrUpdateResume(StructuredResumeModel structuredResumeModel, UserModel user, int flag, string resumeOldId = "")
         {
             resumeDb = new ResumeDb(new ApplicationCommon().GetCompanyDBConnection(user.username));
             //简历基础表
@@ -83,7 +83,7 @@ namespace Resume
             resumeModel.political_status = structuredResumeModel.basic.political_status;
             resumeModel.qq = structuredResumeModel.contact.qq;
             resumeModel.resume_hideId = structuredResumeModel.basic.hidId;
-            resumeModel.resume_id = Guid.NewGuid();
+            resumeModel.resume_id = Guid.NewGuid().ToString();
             resumeModel.resume_orginalId = structuredResumeModel.basic.id;
             resumeModel.resume_status = 0;
             resumeModel.resume_updated_at = string.IsNullOrWhiteSpace(structuredResumeModel.update_info.updated_at)
@@ -109,7 +109,7 @@ namespace Resume
             }
             resumeModel.tel = structuredResumeModel.contact.tel;
             resumeModel.ten = structuredResumeModel.contact.ten;
-            resumeModel.tenant_id = user.tenant_id;
+            resumeModel.company_id = user.company_id;
             resumeModel.wechat = structuredResumeModel.contact.wechat;
             resumeModel.work_experience = structuredResumeModel.basic.work_experience;
             
@@ -154,8 +154,127 @@ namespace Resume
             {
                 foreach (var lanInfo in structuredResumeModel.language)
                 {
-                    var languageTemp=
+                    var languageTemp = new ResumeLanguageModel();
+                    languageTemp.certificate = lanInfo.certificate;
+                    languageTemp.level = lanInfo.level;
+                    languageTemp.name = lanInfo.name;
+                    languageTemp.resume_id = resumeModel.resume_id;
+                    languageList.Add(languageTemp);
                 }
+            }
+
+            //项目经验
+            var projectList = new List<ResumeProjectModel>();
+            if (structuredResumeModel.project != null)
+            {
+                foreach (var proInfo in structuredResumeModel.project)
+                {
+                    var projectTemp = new ResumeProjectModel();
+                    projectTemp.describe = proInfo.describe;
+                    projectTemp.develop_tool = proInfo.develop_tool;
+                    projectTemp.end_time = proInfo.end_time;
+                    projectTemp.hard_env = proInfo.hard_env;
+                    projectTemp.name = proInfo.name;
+                    projectTemp.responsibilities = proInfo.responsibilities;
+                    projectTemp.resume_id = resumeModel.resume_id;
+                    projectTemp.so_far = proInfo.so_far;
+                    projectTemp.soft_env = proInfo.soft_env;
+                    projectTemp.start_time = proInfo.start_time;
+                    projectList.Add(projectTemp);
+                }
+            }
+
+            //技能信息
+            var skillList = new List<ResumeSkillModel>();
+            if (structuredResumeModel.skill != null)
+            {
+                foreach (var skiInfo in structuredResumeModel.skill)
+                {
+                    var skillTemp = new ResumeSkillModel();
+                    skillTemp.level = skiInfo.level;
+                    skillTemp.name = skiInfo.name;
+                    skillTemp.period = skiInfo.period;
+                    skillTemp.resume_id = resumeModel.resume_id;
+                    skillList.Add(skillTemp);
+                }
+            }
+
+            //培训信息
+            var trainList = new List<ResumeTrainingModel>();
+            if (structuredResumeModel.training != null)
+            {
+                foreach (var traInfo in structuredResumeModel.training)
+                {
+                    var trainTemp = new ResumeTrainingModel();
+                    trainTemp.authority = traInfo.authority;
+                    trainTemp.certificate = traInfo.certificate;
+                    trainTemp.city = traInfo.city;
+                    trainTemp.description = traInfo.description;
+                    trainTemp.end_time = traInfo.end_time;
+                    trainTemp.name = traInfo.name;
+                    trainTemp.resume_id = resumeModel.resume_id;
+                    trainTemp.so_far = traInfo.so_far;
+                    trainTemp.start_time = traInfo.start_time;
+                    trainList.Add(trainTemp);
+                }
+            }
+
+            //工作经验
+            var workList = new List<ResumeWorkExperienceModel>();
+            if (structuredResumeModel.work != null)
+            {
+                foreach (var workInfo in structuredResumeModel.work)
+                {
+                    var workTemp = new ResumeWorkExperienceModel();
+                    workTemp.annual_salary_from = workInfo.annual_salary_from;
+                    workTemp.annual_salary_to = workInfo.annual_salary_to;
+                    workTemp.architecture_name = workInfo.architecture_name;
+                    workTemp.basic_salary_from = workInfo.basic_salary_from;
+                    workTemp.basic_salary_to = workInfo.basic_salary_to;
+                    workTemp.bonus = workInfo.bonus;
+                    workTemp.city = workInfo.city;
+                    workTemp.corporation_desc = workInfo.corporation_desc;
+                    workTemp.corporation_name = workInfo.corporation_name;
+                    workTemp.corporation_type = workInfo.corporation_type;
+                    workTemp.end_time = workInfo.end_time;
+                    workTemp.industry_name = workInfo.industry_name;
+                    workTemp.management_experience = workInfo.management_experience;
+                    workTemp.position_name = workInfo.position_name;
+                    workTemp.reporting_to = workInfo.reporting_to;
+                    workTemp.responsibilities = workInfo.responsibilities;
+                    workTemp.resume_id = resumeModel.resume_id;
+                    workTemp.salary_month = workInfo.salary_month;
+                    workTemp.scale = workInfo.scale;
+                    workTemp.so_far = workInfo.so_far;
+                    workTemp.start_time = workInfo.salary_month;
+                    workTemp.station_name = workInfo.station_name;
+                    workTemp.subordinates_count = workInfo.subordinates_count;
+                    workList.Add(workTemp);
+                }
+            }
+
+            if (flag == 1)
+            {
+                if (string.IsNullOrEmpty(resumeOldId))
+                {
+                    return;
+                }
+                else
+                {
+                    var oldResume = resumeDb.GetResumeById(resumeOldId);
+                    if (oldResume == null)
+                    {
+                        return;
+                    }
+                    else
+                    {
+                        resumeModel.oldResumeId = oldResume.resume_id;
+                    }
+                }
+            }
+            else
+            {
+                
             }
         }
     }

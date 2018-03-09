@@ -30,6 +30,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -40,6 +41,8 @@
   <ItemGroup>
     <Compile Include="Api\StructuredResumeModel.cs" />
     <Compile Include="BaseEntity.cs" />
+    <Compile Include="Common\ReturnListModel.cs" />
+    <Compile Include="Common\ReturnModel.cs" />
     <Compile Include="DataAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resume\ResumeCertificateModel.cs" />
@@ -52,6 +55,7 @@
     <Compile Include="Resume\ResumeTrainingModel.cs" />
     <Compile Include="Resume\ResumeWorkExperienceModel.cs" />
     <Compile Include="Resume\ResumeHistoryModel.cs" />
+    <Compile Include="ShowModel\SystemManage\CompanyListShow.cs" />
     <Compile Include="SystemManage\CompanyModel.cs" />
     <Compile Include="SystemManage\LoginLogModel.cs" />
     <Compile Include="SystemManage\SystemOperateLogModel.cs" />

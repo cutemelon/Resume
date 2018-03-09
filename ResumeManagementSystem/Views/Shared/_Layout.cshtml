@@ -1,16 +1,95 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
-</head>
-<body>
-    @RenderBody()
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
 
-    @Scripts.Render("~/bundles/jquery")
-    @RenderSection("scripts", required: false)
-</body>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>系统管理</title>
+        
+        <link rel="stylesheet" type="text/css" href="~/Css/menu.css"/>
+        @*<link rel="stylesheet" type="text/css" href="~/Css/font-awesome.min.css"/>*@
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="~/Css/style.css" rel="stylesheet">
+
+        <script type="text/javascript" src="~/Scripts/jquery-1.8.1.min.js"> </script>
+        <script type="text/javascript" src="~/Scripts/common.js"> </script>
+        <script type="text/javascript" src="~/Scripts/jsrender.js"> </script>
+        <script type="text/javascript" src="~/Scripts/jquery.pagination.js"> </script>
+        <script type="text/javascript" src="~/Scripts/extend.js"> </script>
+        
+        <script type="text/javascript">
+            $(function () {
+                var Accordion = function (el, multiple) {
+                    this.el = el || {};
+                    this.multiple = multiple || false;
+                    var links = this.el.find('.link');
+                    links.on('click', { el: this.el, multiple: this.multiple }, this.dropdown);
+                }
+
+                Accordion.prototype.dropdown = function (e) {
+                    var $el = e.data.el;
+                    $this = $(this),
+                    $next = $this.next();
+
+                    $next.slideToggle();
+                    $this.parent().toggleClass('open');
+
+                    if (!e.data.multiple) {
+                        $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
+                    };
+                }
+
+                var accordion = new Accordion($('#accordion'), false);
+            });
+        </script>
+
+        @RenderSection("head", false)
+    </head>
+    <body>
+        <div style="float: left;width: 210px">
+            <ul id="accordion" class="accordion">
+                <li>
+                    <div class="link">目录</div>
+                </li>
+                <li>
+                    <div class="link"><i class="fa fa-paint-brush"></i>公司管理<i class="fa fa-chevron-down"></i></div>
+                    <ul class="submenu">
+                        <li><a href="@Url.Action("Index","Company")">公司管理</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="link"><i class="fa fa-code"></i>Resume<i class="fa fa-chevron-down"></i></div>
+                    <ul class="submenu">
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">Resume</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="link"><i class="fa fa-mobile"></i>Resume<i class="fa fa-chevron-down"></i></div>
+                    <ul class="submenu">
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">Resume</a></li>
+                    </ul>
+                </li>
+                <li><div class="link"><i class="fa fa-globe"></i>Resume<i class="fa fa-chevron-down"></i></div>
+                    <ul class="submenu">
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">Resume</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div style="float: left">
+            @RenderBody()
+        </div>
+    </body>
 </html>

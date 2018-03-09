@@ -14,13 +14,13 @@ namespace Models.Resume
         /// ID
         /// </summary>
         [GuidIdentity]
-        public Guid row_id { get; set; }
+        public string row_id { get; set; }
 
-        public Guid resume_id { get; set; }
-        public Guid tenant_id { get; set; }
-        public Guid created_by { get; set; }
+        public string resume_id { get; set; }
+        public string company_id { get; set; }
+        public string created_by { get; set; }
         public DateTime? created_time { get; set; }
-        public Guid last_updated_by { get; set; }
+        public string last_updated_by { get; set; }
         public DateTime? last_updated_time { get; set; }
         public string import_from { get; set; }
         public string import_type { get; set; }

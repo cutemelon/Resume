@@ -14,5 +14,6 @@ namespace Models.SystemManage
         public string login_status { get; set; }
         public string ip_address { get; set; }
         public string response { get; set; }
+        public string company_id { get; set; }
     }
 }

@@ -126,11 +126,11 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\SystemManage\CompanyController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Controllers\WebExtensionResumeAPIController\ResumeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
-    <Compile Include="Filter\ServiceFilter.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -191,24 +191,23 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Css\menu.css" />
+    <Content Include="Css\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Images\error.png" />
+    <Content Include="Images\onLoad.gif" />
+    <Content Include="Images\right.png" />
     <Content Include="log4net.config" />
-    <None Include="Scripts\jquery-1.7.1.intellisense.js" />
-    <Content Include="Scripts\jquery-1.7.1.js" />
-    <Content Include="Scripts\jquery-1.7.1.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery-ui-1.8.20.js" />
-    <Content Include="Scripts\jquery-ui-1.8.20.min.js" />
-    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
-    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\knockout-2.1.0.debug.js" />
-    <Content Include="Scripts\knockout-2.1.0.js" />
-    <Content Include="Scripts\modernizr-2.5.3.js" />
+    <Content Include="Scripts\common.js" />
+    <Content Include="Scripts\extend.js" />
+    <Content Include="Scripts\jquery-1.8.1.js" />
+    <Content Include="Scripts\jquery-1.8.1.min.js" />
+    <Content Include="Scripts\jquery.form3.5.js" />
+    <Content Include="Scripts\jquery.pagination.js" />
+    <Content Include="Scripts\jsrender.js" />
+    <Content Include="Scripts\Validform_v5.3.2.js" />
+    <Content Include="Scripts\Validform_v5.3.2.yui.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -232,12 +231,12 @@
     <Content Include="Images\orderedList7.png" />
     <Content Include="Images\orderedList8.png" />
     <Content Include="Images\orderedList9.png" />
-    <Content Include="Scripts\_references.js" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Company\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -248,6 +247,22 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Company\Company.csproj">
+      <Project>{4670C900-083A-4F20-9089-643DE1E69E66}</Project>
+      <Name>Company</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DatabaseInterface\DatabaseInterface.csproj">
+      <Project>{b04af9cd-2da9-4a93-8a67-a90bc456017b}</Project>
+      <Name>DatabaseInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DatabaseService\DatabaseService.csproj">
+      <Project>{ecf59fdd-edbc-4f2c-974f-780a6017e05e}</Project>
+      <Name>DatabaseService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Extensions\Extensions.csproj">
+      <Project>{F39EA5DD-5923-4C64-B210-FA77A32F5C29}</Project>
+      <Name>Extensions</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj">
       <Project>{F434DFF5-39E5-4EC6-9818-6D721E34588A}</Project>
       <Name>Infrastructure</Name>
@@ -256,10 +271,23 @@
       <Project>{cdaaa703-253c-447c-b5c7-fa9255f3fbf3}</Project>
       <Name>Models</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MvcExtend\MvcExtend.csproj">
+      <Project>{C4F44E30-B76F-4A47-8D45-19F71EF253F9}</Project>
+      <Name>MvcExtend</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Resume\Resume.csproj">
       <Project>{A9F4595F-44B1-4962-9D98-4EA682DAE6A5}</Project>
       <Name>Resume</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Company\AddCompany.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Login\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\User\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -277,7 +305,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerPort>10908</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:5438/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>

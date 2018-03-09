@@ -14,11 +14,11 @@ namespace Models.Resume
         /// 简历ID
         /// </summary>
         [GuidIdentity]
-        public Guid resume_id { get; set; }
-        public Guid tenant_id { get; set; }
-        public Guid created_by { get; set; }
+        public string resume_id { get; set; }
+        public string company_id { get; set; }
+        public string created_by { get; set; }
         public DateTime created_time { get; set; }
-        public Guid? last_updated_by { get; set; }
+        public string last_updated_by { get; set; }
         public DateTime? last_updated_time { get; set; }
         public string import_from { get; set; }
         public string import_type { get; set; }
@@ -73,10 +73,11 @@ namespace Models.Resume
         public string graduate_date { get; set; }
         public string current_salary { get; set; }
         /// <summary>
-        /// 简历状态 0-正常 1-删除 2-弃用
+        /// 简历状态 0-正常 1-更新删除 2-弃用 3-删除
         /// </summary>
         public int resume_status { get; set; }
         public string htmlContent { get; set; }
         public string noHtmlContent { get; set; }
+        public string oldResumeId { get; set; }
     }
 }

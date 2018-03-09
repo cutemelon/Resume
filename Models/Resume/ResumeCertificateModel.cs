@@ -11,7 +11,7 @@ namespace Models.Resume
     public class ResumeCertificateModel : BaseEntity
     {
         [GuidIdentity]
-        public Guid resume_id { get; set; }
+        public string resume_id { get; set; }
 
         public string start_time { get; set; }
         public string name { get; set; }

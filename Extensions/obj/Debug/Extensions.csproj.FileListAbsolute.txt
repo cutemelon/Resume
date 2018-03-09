@@ -2,3 +2,7 @@ E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Extensions\bin\Debug
 E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Extensions\bin\Debug\Extensions.pdb
 E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Extensions\obj\Debug\Extensions.dll
 E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\Extensions\obj\Debug\Extensions.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\Extensions\bin\Debug\Extensions.dll
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\Extensions\bin\Debug\Extensions.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\Extensions\obj\Debug\Extensions.dll
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\Extensions\obj\Debug\Extensions.pdb

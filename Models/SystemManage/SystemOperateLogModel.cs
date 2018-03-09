@@ -7,10 +7,10 @@ namespace Models.SystemManage
     public class SystemOperateLogModel : BaseEntity
     {
         [GuidIdentity]
-        public Guid row_id { get; set; }
+        public string row_id { get; set; }
 
-        public Guid operater { get; set; }
-        public Guid tenant_id { get; set; }
+        public string operater { get; set; }
+        public string company_id { get; set; }
         public string operate_type { get; set; }
         public string ip_address { get; set; }
         public DateTime operate_time { get; set; }
