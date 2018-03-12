@@ -27,7 +27,7 @@ namespace MvcExtend.Filter
 
             Type returnType = method.ReturnType;
 
-            filterContext.Result = new RedirectResult(controller.Url.Action("Login", "Admin"));
+            filterContext.Result = new RedirectResult(controller.Url.Action("Index", "Login"));
             
         }
 

@@ -1,0 +1,43 @@
+﻿一、manifest.json相关参数注释
+{  
+    //必填
+    "manifest_version": 2,                      // manifest编写规范版本，目前主流2  
+    "name": "My Extension",                     // 插件名  
+    "version": "versionString",                 // 版本号  
+      
+    //推荐填写，可以不填
+    "default_locale": "en",                     // 默认编码  
+    "description": "A plain text description",  // 插件描述  
+    "icons": {                                  // 插件下载或浏览时显示的图标，可选多种规格，建议128  
+        "16": "icon16.png",  
+        "48": "icon48.png",  
+        "128": "icon128.png"  
+    },  
+      
+    //填写一个或者不写
+    "browser_action": {},                       // 图标显示在地址栏右边，能在所有页面显示  
+    "page_action": {},                          // 图标显示在地址栏右侧（地址栏内），只在特定页面显示  
+      
+    //选填  
+    "background": {                             // 用于监听一些html 或者js页面    
+        "scripts": ["jquery.js", "my-background.js"], 
+        "page": "my-background.html"
+    },  
+    "applications":{                            //firefox 48版本前必填，之后选填。插件相关信息
+        "gecko": {
+            "id": "addon@example.com",          //插件的id
+            "strict_min_version": "42.0",       //支持最小版本
+            "strict_max_version": "50.*",       //支持最大版本
+            "update_url": "https://example.com/updates.json"//升级路径
+        }
+    },
+	"permissions": [                            //允许扩展调用的api权限
+        "*://developer.mozilla.org/*",
+        "webRequest"
+    ],
+    "icons":{                                   //插件的图标
+        "16":"Image/16.png",                    //16*16
+        "48":"Image/48.png",                    //48*48
+        "128":"Image/128.png"                   //128*128
+    },
+}

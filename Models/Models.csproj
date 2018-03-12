@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -39,6 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Api\ApiBaseEntity.cs" />
+    <Compile Include="Api\ApiReturn.cs" />
+    <Compile Include="Api\ApiReturnModel.cs" />
+    <Compile Include="Api\ErrorModel.cs" />
+    <Compile Include="Api\LoginModel.cs" />
+    <Compile Include="Api\RelationResumeModel.cs" />
+    <Compile Include="Api\SearchModel.cs" />
+    <Compile Include="Api\SearchReturnEntity.cs" />
     <Compile Include="Api\StructuredResumeModel.cs" />
     <Compile Include="BaseEntity.cs" />
     <Compile Include="Common\ReturnListModel.cs" />
@@ -61,7 +70,12 @@
     <Compile Include="SystemManage\SystemOperateLogModel.cs" />
     <Compile Include="SystemManage\UserModel.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Extensions\Extensions.csproj">
+      <Project>{F39EA5DD-5923-4C64-B210-FA77A32F5C29}</Project>
+      <Name>Extensions</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

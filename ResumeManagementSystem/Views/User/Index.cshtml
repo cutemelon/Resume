@@ -2,4 +2,86 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>这里是首页</h2>
+@section head{
+    <script type="text/javascript">
+        function InitDataList() {
+            var url = '@Url.Action("GetUserList", "User")?'
+                + "userName=" + escape($("#userName").val().trim())
+                + "&realName=" + escape($("#realName").val().trim());
+            $("#data1").show();
+            $("#dataList1").JsRenderData({
+                sourceUrl: url,
+                isPage: true,
+                pageSize: 20,
+                pageIndex: 1,
+                templateID: "actionListTemplate",
+                funCallback: function (dd) {
+                }
+            });
+        }
+
+        function AddNewUser() {
+            window.location.href = "@Url.Action("AddUser","User")";
+        }
+
+        function EditUser(userId) {
+            window.location.href = "@Url.Action("AddUser","User")?userId=" + userId;
+        }
+
+        function FreezeUser(userId) {
+            
+        }
+    </script>
+}
+
+<div>
+    <div style="margin-top: 10px">
+        <div>
+            <label>账户名 :</label>
+            <input type="text" name="userName" id="userName" maxlength="20" style="width: 100px"/>
+        </div>
+    </div>
+    <div style="margin-top: 10px">
+        <div>
+            <label>姓名 :</label>
+            <input type="text" name="realName" id="realName" maxlength="20" style="width: 100px"/>
+        </div>
+    </div>
+    <div style="margin-top: 10px">
+        <input type="button" onclick=" InitDataList() " value="查询" />
+        <input type="button" onclick=" AddNewUser() " value="新建用户" />
+    </div>
+</div>
+<div id="data1" style="margin-top: 20px; display: none">
+    <table id="list" class="">
+        <thead>
+            <tr>
+                <th style="width: 3%">序号</th>
+                <th style="width: 50%">账户名</th>
+                <th style="width: 20%">姓名</th>
+                <th style="width: 20%">操作</th>
+            </tr>
+        </thead>
+        <tbody id="dataList1">
+        </tbody>
+        <tfoot>
+        </tfoot>
+    </table>
+</div>
+
+<script type="text/x-jsrender" id="actionListTemplate">
+{{for #data}}
+    <tr id="{{:user_id}}">
+        <td>{{>RowIndex}}</td>
+        <td>{{>username}}</td>
+        <td title="{{>name}}">{{>name.length > 5 ? name.substring(0,5) + "..." : name}}</td>
+        <td>
+            <a href='javascript:EditUser("{{:user_id}}");'>编辑</a>
+            <a href='javascript:EditUser("{{:user_id}}");'>详情</a>
+            <a href='javascript:FreezeUser("{{:user_id}}");'>冻结</a>
+            <a href='javascript:EditUser("{{:user_id}}");'>删除</a>
+            <a href='javascript:EditUser("{{:user_id}}");'>密码重置</a>
+        </td>
+    </tr>
+{{/for}}
+</script>

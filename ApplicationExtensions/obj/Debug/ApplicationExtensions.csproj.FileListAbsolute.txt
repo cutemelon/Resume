@@ -30,3 +30,5 @@ E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ApplicationExtensions\b
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ApplicationExtensions\obj\Debug\ApplicationExtensions.csprojResolveAssemblyReference.cache
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ApplicationExtensions\obj\Debug\ApplicationExtensions.dll
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ApplicationExtensions\obj\Debug\ApplicationExtensions.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ApplicationExtensions\bin\Debug\Extensions.dll
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ApplicationExtensions\bin\Debug\Extensions.pdb

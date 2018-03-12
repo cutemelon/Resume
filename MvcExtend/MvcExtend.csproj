@@ -41,6 +41,7 @@
       <HintPath>..\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -90,6 +91,18 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ApiManage\ApiManage.csproj">
+      <Project>{f06ca079-498a-4c8f-8f95-e1dbbf2c09cf}</Project>
+      <Name>ApiManage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DatabaseInterface\DatabaseInterface.csproj">
+      <Project>{B04AF9CD-2DA9-4A93-8A67-A90BC456017B}</Project>
+      <Name>DatabaseInterface</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DatabaseService\DatabaseService.csproj">
+      <Project>{ECF59FDD-EDBC-4F2C-974F-780A6017E05E}</Project>
+      <Name>DatabaseService</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj">
       <Project>{F434DFF5-39E5-4EC6-9818-6D721E34588A}</Project>
       <Name>Infrastructure</Name>

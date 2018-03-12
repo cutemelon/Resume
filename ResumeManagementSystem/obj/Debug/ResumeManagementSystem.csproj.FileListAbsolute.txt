@@ -58,7 +58,6 @@ E:\Project\98 WebExtensions(Private)\ResumeManagementSystem\ResumeManagementSyst
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ResumeManagementSystem\bin\ResumeManagementSystem.dll
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ResumeManagementSystem\bin\ResumeManagementSystem.pdb
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ResumeManagementSystem\bin\Antlr3.Runtime.dll
-E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ResumeManagementSystem\bin\Company.dll
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ResumeManagementSystem\bin\EntityFramework.dll
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ResumeManagementSystem\bin\Infrastructure.dll
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ResumeManagementSystem\bin\log4net.dll
@@ -82,7 +81,6 @@ E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ResumeManagementSystem\
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ResumeManagementSystem\bin\DatabaseService.dll
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ResumeManagementSystem\bin\RTF.Data.dll
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ResumeManagementSystem\bin\ApplicationExtensions.dll
-E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ResumeManagementSystem\bin\Company.pdb
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ResumeManagementSystem\bin\Infrastructure.pdb
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ResumeManagementSystem\bin\Models.pdb
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ResumeManagementSystem\bin\Resume.pdb
@@ -120,3 +118,5 @@ E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ResumeManagementSystem\
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ResumeManagementSystem\bin\MvcExtend.dll
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ResumeManagementSystem\bin\Extensions.pdb
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ResumeManagementSystem\bin\MvcExtend.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ResumeManagementSystem\bin\ApiManage.dll
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\ResumeManagementSystem\bin\ApiManage.pdb

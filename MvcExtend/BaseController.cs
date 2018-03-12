@@ -20,10 +20,22 @@ namespace MvcExtend
             set { Session["currentUser"] = value; }
         }
 
+        /// <summary>
+        /// 公司信息
+        /// </summary>
         public CompanyModel CurrentCompany
         {
-            get { return Session["currentTenant"] as CompanyModel; }
-            set { Session["currentTenant"] = value; }
+            get { return Session["currentCompany"] as CompanyModel; }
+            set { Session["currentCompany"] = value; }
+        }
+
+        /// <summary>
+        /// 链接信息
+        /// </summary>
+        public string CurrentUserConnectionInfo
+        {
+            get { return Session["CurrentUserConnectionInfo"] as string; }
+            set { Session["CurrentUserConnectionInfo"] = value; }
         }
     }
 }

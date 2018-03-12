@@ -261,7 +261,7 @@ FROM    ( SELECT  {4},  ROW_NUMBER() OVER ( {1} ) AS RowIndex
 
                     if (pk != null)
                     {
-                        pk.SetValue(entity, Convert.ToInt32(id), null);
+                        pk.SetValue(entity, id, null);
                     }
 
                     return id;
@@ -894,7 +894,6 @@ FROM    ( SELECT  {4},  ROW_NUMBER() OVER ( {1} ) AS RowIndex
                 if (guidIdentity != null)
                 {
                     hasIdentityField = true;
-                    continue;
                 }
                 RefFieldAttribute refField = RefFieldAttribute.GetAttribute(info);
                 if (refField != null) continue;

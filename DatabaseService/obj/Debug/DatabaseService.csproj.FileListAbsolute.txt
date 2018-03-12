@@ -26,3 +26,5 @@ E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\DatabaseService\bin\Deb
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\DatabaseService\obj\Debug\DatabaseService.csprojResolveAssemblyReference.cache
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\DatabaseService\obj\Debug\DatabaseService.dll
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\DatabaseService\obj\Debug\DatabaseService.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\DatabaseService\bin\Debug\Extensions.dll
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\DatabaseService\bin\Debug\Extensions.pdb

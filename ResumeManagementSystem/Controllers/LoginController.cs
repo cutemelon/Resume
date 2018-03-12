@@ -27,10 +27,22 @@ namespace ResumeManagementSystem.Controllers
             set { Session["currentUser"] = value; }
         }
 
+        /// <summary>
+        /// 公司信息
+        /// </summary>
         public CompanyModel CurrentCompany
         {
             get { return Session["currentCompany"] as CompanyModel; }
             set { Session["currentCompany"] = value; }
+        }
+
+        /// <summary>
+        /// 链接信息
+        /// </summary>
+        public string CurrentUserConnectionInfo
+        {
+            get { return Session["CurrentUserConnectionInfo"] as string; }
+            set { Session["CurrentUserConnectionInfo"] = value; }
         }
 
         #endregion
@@ -50,7 +62,8 @@ namespace ResumeManagementSystem.Controllers
                 return Json(new { result = 0, msg = "公司、用户名或密码错误！" }, JsonRequestBehavior.AllowGet);
             }
             CurrentCompany = company;
-            userDb = new UserDb(new ApplicationCommon().GetUserDBConnection(company));
+            CurrentUserConnectionInfo = new ApplicationCommon().GetUserDBConnection(company);
+            userDb = new UserDb(CurrentUserConnectionInfo);
             var user = userDb.GetUserByUsername(account);
             if (user == null)
             {
@@ -59,10 +72,6 @@ namespace ResumeManagementSystem.Controllers
             if (!user.password.Trim().Equals(password.GetMd5(2), StringComparison.CurrentCultureIgnoreCase))
             {
                 return Json(new { result = 0, msg = "公司、用户名或密码错误！" }, JsonRequestBehavior.AllowGet);
-            }
-            if (user.system_admin == 0)
-            {
-                return Json(new { result = 0, msg = "账户已被冻结！" }, JsonRequestBehavior.AllowGet);
             }
             if (user.status == 2)
             {

@@ -37,5 +37,17 @@ namespace DatabaseInterface.SystemInterface
         /// <returns></returns>
         UserModel GetUserByUsername(string userName);
 
+        /// <summary>
+        /// 获得用户列表
+        /// </summary>
+        /// <param name="total"></param>
+        /// <param name="userName"></param>
+        /// <param name="realName"></param>
+        /// <param name="startIndex"></param>
+        /// <param name="pageSize"></param>
+        /// <returns></returns>
+        List<UserModel> GetUserList(out int total, string userName = "", string realName = "",
+            int startIndex = 1, int pageSize = int.MaxValue);
+
     }
 }

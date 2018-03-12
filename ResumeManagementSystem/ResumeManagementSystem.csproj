@@ -52,6 +52,7 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Abstractions" />
@@ -129,8 +130,11 @@
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\SystemManage\CompanyController.cs" />
     <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Controllers\WebExtensionResumeAPIController\Filter\ApiFilter.cs" />
+    <Compile Include="Controllers\WebExtensionResumeAPIController\PageResult.cs" />
     <Compile Include="Controllers\WebExtensionResumeAPIController\ResumeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Controllers\WebExtensionResumeAPIController\LoginController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -201,6 +205,64 @@
     <Content Include="log4net.config" />
     <Content Include="Scripts\common.js" />
     <Content Include="Scripts\extend.js" />
+    <Content Include="Scripts\ExtensionProject\apiScripts\broswerCheck.js" />
+    <Content Include="Scripts\ExtensionProject\apiScripts\firefox.js" />
+    <Content Include="Scripts\ExtensionProject\background.js" />
+    <Content Include="Scripts\ExtensionProject\CodeAnnotation.txt" />
+    <Content Include="Scripts\ExtensionProject\common\common.js" />
+    <Content Include="Scripts\ExtensionProject\common\configGlobal.js" />
+    <Content Include="Scripts\ExtensionProject\common\jquery-1.8.3.min.js" />
+    <Content Include="Scripts\ExtensionProject\common\store.min.js" />
+    <Content Include="Scripts\ExtensionProject\content_scripts\injectScript.js" />
+    <Content Include="Scripts\ExtensionProject\extension.js" />
+    <Content Include="Scripts\ExtensionProject\popup\menu.html" />
+    <Content Include="Scripts\ExtensionProject\popup\menu.js" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\css\animate.css" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\css\default.css" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\css\metro.css" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\css\tran.css" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\css\warp.css" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\images\findme.jpg" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\images\FocusBtn.png" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\images\help_icon.png" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\images\icon128.png" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\images\icon16.png" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\images\icon24.png" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\images\icon48.png" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\images\logo32.png" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\images\logo322.png" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\images\metro\btn_hide2.png" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\images\metro\btn_left2.png" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\images\metro\btn_right2.png" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\images\metro\line_loading.gif" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\images\metro\metro_broken.png" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\images\metro\metro_dormancy.png" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\images\metro\metro_listBack.png" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\images\metro\metro_waiting.png" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\images\metro\metro_working.png" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\images\tran\broken.png" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\images\tran\dormancy.png" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\images\tran\listBack.png" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\images\tran\waiting.png" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\images\tran\working.png" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\images\update1.jpg" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\js\config.js" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\js\Domain\basic.js" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\js\Domain\EC_Handler.js" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\js\Domain\LP_Handler.js" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\js\Domain\ResumeDetailModel.js" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\js\Domain\startup.js" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\js\Domain\TC_Handler.js" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\js\Domain\WY_Handler.js" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\js\Domain\ZG_Handler.js" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\js\Domain\ZL_Handler.js" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\js\helper.js" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\js\jbase64.js" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\js\loadEx.js" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\js\Theme\dataHandle.js" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\js\Theme\metro.js" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\js\Theme\tran.js" />
+    <Content Include="Scripts\ExtensionProject\webPopup\resources\js\warp.js" />
     <Content Include="Scripts\jquery-1.8.1.js" />
     <Content Include="Scripts\jquery-1.8.1.min.js" />
     <Content Include="Scripts\jquery.form3.5.js" />
@@ -240,16 +302,22 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Filter\" />
     <Folder Include="Log\" />
     <Folder Include="Models\" />
+    <Folder Include="Scripts\ExtensionProject\package\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Company\Company.csproj">
-      <Project>{4670C900-083A-4F20-9089-643DE1E69E66}</Project>
-      <Name>Company</Name>
+    <ProjectReference Include="..\ApiManage\ApiManage.csproj">
+      <Project>{F06CA079-498A-4C8F-8F95-E1DBBF2C09CF}</Project>
+      <Name>ApiManage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ApplicationExtensions\ApplicationExtensions.csproj">
+      <Project>{46E2D783-2555-464D-9148-6B0D2ADBECBE}</Project>
+      <Name>ApplicationExtensions</Name>
     </ProjectReference>
     <ProjectReference Include="..\DatabaseInterface\DatabaseInterface.csproj">
       <Project>{b04af9cd-2da9-4a93-8a67-a90bc456017b}</Project>
@@ -288,6 +356,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\User\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\User\AddUser.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\ExtensionProject\manifest.json" />
+    <Content Include="Scripts\ExtensionProject\README.md" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

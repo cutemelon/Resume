@@ -12,3 +12,5 @@ E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\DatabaseInterface\bin\D
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\DatabaseInterface\obj\Debug\DatabaseInterface.csprojResolveAssemblyReference.cache
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\DatabaseInterface\obj\Debug\DatabaseInterface.dll
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\DatabaseInterface\obj\Debug\DatabaseInterface.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\DatabaseInterface\bin\Debug\Extensions.dll
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\DatabaseInterface\bin\Debug\Extensions.pdb

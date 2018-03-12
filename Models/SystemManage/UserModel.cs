@@ -28,6 +28,8 @@ namespace Models.SystemManage
 
         #region 扩展字段
 
+        [ExcludeField]
+        public int RowIndex { get; set; }
 
         #endregion
 

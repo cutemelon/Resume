@@ -37,3 +37,13 @@ E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\MvcExtend\bin\Debug\Sys
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\MvcExtend\bin\Debug\log4net.xml
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\MvcExtend\bin\Debug\zh-Hans\System.Net.Http.Formatting.resources.dll
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\MvcExtend\bin\Debug\zh-Hans\System.Web.Http.resources.dll
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\MvcExtend\bin\Debug\DatabaseInterface.dll
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\MvcExtend\bin\Debug\DatabaseService.dll
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\MvcExtend\bin\Debug\DatabaseInterface.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\MvcExtend\bin\Debug\DatabaseService.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\MvcExtend\bin\Debug\ApiManage.dll
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\MvcExtend\bin\Debug\ApplicationExtensions.dll
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\MvcExtend\bin\Debug\Extensions.dll
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\MvcExtend\bin\Debug\ApiManage.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\MvcExtend\bin\Debug\ApplicationExtensions.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\MvcExtend\bin\Debug\Extensions.pdb

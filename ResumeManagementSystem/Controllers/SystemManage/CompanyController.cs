@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Web.Mvc;
-using Company;
 using DatabaseInterface.SystemInterface;
 using DatabaseService.SystemService;
 using Models.ShowModel.SystemManage;
@@ -84,6 +83,19 @@ namespace ResumeManagementSystem.Controllers.SystemManage
             return Json(new { status, info }, JsonRequestBehavior.AllowGet);
         }
 
+        /// <summary>
+        /// 保存用户
+        /// </summary>
+        /// <param name="companyName"></param>
+        /// <param name="phone"></param>
+        /// <param name="contact"></param>
+        /// <param name="mobile"></param>
+        /// <param name="location"></param>
+        /// <param name="DBname"></param>
+        /// <param name="DBaddress"></param>
+        /// <param name="description"></param>
+        /// <param name="companyId"></param>
+        /// <returns></returns>
         public JsonResult SaveCompany(string companyName = "", string phone = "", string contact = "",
             string mobile = "", string location = "", string DBname = "",
             string DBaddress = "", string description = "", string companyId = "")

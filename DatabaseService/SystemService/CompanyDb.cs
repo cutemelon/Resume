@@ -109,7 +109,7 @@ where u.username='{0}'", username);
         /// <returns></returns>
         public CompanyModel GetCompanyByCompanyCode(string companyCode)
         {
-            var sql = string.Format(@"select * from company where company_code = '{0}'", companyCode);
+            var sql = string.Format(@"select * from company where company_code = '{0}' and status=0", companyCode);
             return _dataAccess.GetListBySql<CompanyModel>(sql).FirstOrDefault();
         }
     }

@@ -64,3 +64,5 @@ E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\Resume\bin\Debug\zh-Han
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\Resume\obj\Debug\Resume.csprojResolveAssemblyReference.cache
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\Resume\obj\Debug\Resume.dll
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\Resume\obj\Debug\Resume.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\Resume\bin\Debug\Extensions.dll
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\Resume\bin\Debug\Extensions.pdb

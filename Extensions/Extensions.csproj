@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="ArrayHelper.cs" />
     <Compile Include="EncryptHelper.cs.cs" />
+    <Compile Include="LevenshteinDistance.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

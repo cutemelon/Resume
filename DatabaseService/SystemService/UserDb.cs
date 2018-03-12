@@ -66,5 +66,29 @@ namespace DatabaseService.SystemService
             return _dataAccess.FetchListBySql<UserModel>(sql).FirstOrDefault();
         }
 
+        /// <summary>
+        /// 获得用户列表
+        /// </summary>
+        /// <param name="total"></param>
+        /// <param name="userName"></param>
+        /// <param name="realName"></param>
+        /// <param name="startIndex"></param>
+        /// <param name="pageSize"></param>
+        /// <returns></returns>
+        public List<UserModel> GetUserList(out int total, string userName = "", string realName = "",
+            int startIndex = 1, int pageSize = int.MaxValue)
+        {
+            var where = " 1=1 ";
+            if (!string.IsNullOrWhiteSpace(userName))
+            {
+                where += string.Format(" and username like '%{0}%'", userName);
+            }
+            if (!string.IsNullOrWhiteSpace(realName))
+            {
+                where += string.Format(" and name like '%{0}%'", realName);
+            }
+            return _dataAccess.GetEntities<UserModel>(out total, where, startIndex, pageSize, " create_time desc ").ToList();
+        }
+
     }
 }
