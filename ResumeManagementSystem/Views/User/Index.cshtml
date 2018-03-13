@@ -3,7 +3,14 @@
 }
 
 @section head{
+    
     <script type="text/javascript">
+        var winDialog;
+
+        $(document).ready(function () {
+            InitDataList();
+        });
+
         function InitDataList() {
             var url = '@Url.Action("GetUserList", "User")?'
                 + "userName=" + escape($("#userName").val().trim())
@@ -28,8 +35,85 @@
             window.location.href = "@Url.Action("AddUser","User")?userId=" + userId;
         }
 
-        function FreezeUser(userId) {
-            
+        function FreezeUser(userId, type) {
+            winDialog = $.dialog({
+                title: '提示',
+                content: '是否冻结此用户？',
+                width: 300,
+                height: 100,
+                max: false,
+                min: false,
+                okVal: "是",
+                cancelVal:"否",
+                ok: function() {
+                    $.post('@Url.Action("UserOperation")?type=' + type + '&userId=' + userId, function(data) {
+                        if (data.result == 1) {
+                            showDialog(data.msg);
+                            winDialog.close();
+                        } else {
+                            winDialog.close();
+                            showDialog(data.msg);
+                        }
+                    });
+                },
+                cancel:function() {
+                    winDialog.close();
+                }
+            });
+        }
+
+        function ResetUserPasswd(userId) {
+            winDialog = $.dialog({
+                title: '提示',
+                content: '是否重置此用户的密码？',
+                width: 300,
+                height: 100,
+                max: false,
+                min: false,
+                okVal: "是",
+                cancelVal: "否",
+                ok: function () {
+                    $.post('@Url.Action("UserOperation")?type=3&userId=' + userId, function (data) {
+                        if (data.result == 1) {
+                            showDialog(data.msg);
+                            winDialog.close();
+                        } else {
+                            winDialog.close();
+                            showDialog(data.msg);
+                        }
+                    });
+                },
+                cancel: function () {
+                    winDialog.close();
+                }
+            });
+        }
+
+        function DeleteUser(userId) {
+            winDialog = $.dialog({
+                title: '提示',
+                content: '是否删除此用户？',
+                width: 300,
+                height: 100,
+                max: false,
+                min: false,
+                okVal: "是",
+                cancelVal: "否",
+                ok: function () {
+                    $.post('@Url.Action("UserOperation")?type=2&userId=' + userId, function (data) {
+                        if (data.result == 1) {
+                            showDialog(data.msg);
+                            winDialog.close();
+                        } else {
+                            winDialog.close();
+                            showDialog(data.msg);
+                        }
+                    });
+                },
+                cancel: function () {
+                    winDialog.close();
+                }
+            });
         }
     </script>
 }
@@ -78,9 +162,13 @@
         <td>
             <a href='javascript:EditUser("{{:user_id}}");'>编辑</a>
             <a href='javascript:EditUser("{{:user_id}}");'>详情</a>
-            <a href='javascript:FreezeUser("{{:user_id}}");'>冻结</a>
-            <a href='javascript:EditUser("{{:user_id}}");'>删除</a>
-            <a href='javascript:EditUser("{{:user_id}}");'>密码重置</a>
+            {{if status==0}}
+            <a href='javascript:FreezeUser("{{:user_id}}",0);'>冻结</a>
+            {{else}}
+            <a href='javascript:FreezeUser("{{:user_id}}",1);'>解冻</a>
+            {{/if}}
+            <a href='javascript:DeleteUser("{{:user_id}}");'>删除</a>
+            <a href='javascript:ResetUserPasswd("{{:user_id}}");'>密码重置</a>
         </td>
     </tr>
 {{/for}}

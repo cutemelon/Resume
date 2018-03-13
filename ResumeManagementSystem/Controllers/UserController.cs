@@ -135,6 +135,49 @@ namespace ResumeManagementSystem.Controllers
             
         }
 
+        /// <summary>
+        /// 用户冻结、解冻、删除、密码重置
+        /// </summary>
+        /// <param name="userId"></param>
+        /// <param name="type">0-冻结 1-解冻 2-删除 3-密码重置</param>
+        /// <returns></returns>
+        public JsonResult UserOperation(string userId, int type = 0)
+        {
+            try
+            {
+                var user = userDb.GetUserById(userId);
+                if (user == null)
+                {
+                    return Json(new { result = 0, msg = "该用户不存在！" }, JsonRequestBehavior.AllowGet);
+                }
+                switch (type)
+                {
+                    case 0:
+                        user.status = 2;
+                        break;
+                    case 1:
+                        user.status = 0;
+                        break;
+                    case 2:
+                        user.status = 1;
+                        break;
+                    case 3:
+                        user.password = ("123456").GetMd5(2);
+                        break;
+                    default:
+                        return Json(new { result = 0, msg = "不存在您所需的操作！" }, JsonRequestBehavior.AllowGet);
+                }
+                user.last_update_by = CurrentUser.user_id;
+                user.last_update_time = DateTime.Now;
+                userDb.UpdateUser(user);
+                return Json(new { result = 1, msg = "操作成功！" }, JsonRequestBehavior.AllowGet); 
+            }
+            catch (Exception e)
+            {
+                return Json(new { result = 0, msg = "操作失败！" }, JsonRequestBehavior.AllowGet);
+            }
+        }
+
 
 
         #endregion
