@@ -61,5 +61,20 @@ namespace ApiManage
                 return false;
             }
         }
+
+        /// <summary>
+        /// 获得TOKEN中的公司ID
+        /// </summary>
+        /// <param name="token"></param>
+        /// <returns></returns>
+        public string GetCompanyId(string token)
+        {
+            token = token.Replace("[", "=");
+            var arry = token.Split(';');
+            var companyId = "";
+            byte[] companyIdBytes = Convert.FromBase64String(arry[2]);
+            companyId = System.Text.Encoding.Default.GetString(companyIdBytes);
+            return companyId;
+        }
     }
 }

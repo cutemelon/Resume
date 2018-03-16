@@ -1,11 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Script.Serialization;
+using ApiManage;
 using ApplicationExtensions;
 using DatabaseInterface.ResumeInterface;
+using DatabaseInterface.SystemInterface;
 using DatabaseService.ResumeService;
+using DatabaseService.SystemService;
 using Models.Api;
 using Models.Resume;
 using Models.SystemManage;
@@ -15,10 +20,96 @@ namespace Resume
     public class ResumeManage
     {
         private IResumeDb resumeDb;
+        private ICompanyDb companyDb = new CompanyDb();
+        private IUserDb userDb;
 
-        public void AddOrUpdateResume(StructuredResumeModel structuredResumeModel, UserModel user, int flag, string resumeOldId = "")
+        public string ImportStructured(StructuredImportModel importModel)
         {
-            resumeDb = new ResumeDb(new ApplicationCommon().GetCompanyDBConnection(user.username));
+            var reponseJson = string.Empty;
+            var jsSerializer = new JavaScriptSerializer();
+            importModel.employeeNo = string.IsNullOrEmpty(importModel.employeeNo) ? "" : importModel.employeeNo.Trim();
+            if (importModel.employeeNo == "")
+            {
+                reponseJson = jsSerializer.Serialize(new { Flag = 1, Info = "请登录", Result = "[]" });
+                return reponseJson;
+            }
+            try
+            {
+                var result = ImportStructuredResume(importModel, 0,
+                    new TokenManage().GetCompanyId(importModel.token), 0);
+                if (result.Flag == 0)
+                {
+                    reponseJson = jsSerializer.Serialize(new { Flag = 0, Info = string.Empty, Result = new { ResumeId = result.ResumeId } });
+                }
+                else if (result.Flag == 5)
+                {
+                    reponseJson = jsSerializer.Serialize(new { Flag = 4, Info = "简历入库异常", Result = "[]" });
+                }
+                else
+                {
+                    reponseJson = jsSerializer.Serialize(new { Flag = 4, Info = result.Message, Result = "[]" });
+                }
+                return reponseJson;
+            }
+            catch (Exception ex)
+            {
+                reponseJson = jsSerializer.Serialize(new { Flag = 4, Info = "简历入库异常", Result = "[]" });
+                return reponseJson;
+            }
+        }
+
+        public StoreResult ImportStructuredResume(StructuredImportModel importModel, int physicalSourceId,
+            string companyId, int importFrom)
+        {
+            //var fileInfo = SaveFile(importModel.structuredResumeDetail.htmlContent);
+            string importType = string.Empty;
+            if (importModel.structuredResumeDetail.importType == 0) importType = "手动新增";
+            else if (importModel.structuredResumeDetail.importType == 1) importType = "手动更新";
+            else if (importModel.structuredResumeDetail.importType == 2) importType = "自动新增";
+            else if (importModel.structuredResumeDetail.importType == 3) importType = "自动更新 ";
+            //log.WriteLog(importType + ";identity:" + importModel.structuredResumeDetail.basic.id + ";source: " + ThridSysSetting.GetSite((int)importModel.structuredResumeDetail.src[0]).RmsName + ";name:"
+            //    + importModel.structuredResumeDetail.basic.name + ";mobile:" + importModel.structuredResumeDetail.contact.phone + ";email:" + importModel.structuredResumeDetail.contact.email + ";fileInfo:" + fileInfo.FullName, importModel.employeeNo, "StructuredResume");
+            DealDescription dealDescription = new DealDescription();
+            if (importModel.structuredResumeDetail.importType == 1 && physicalSourceId == 0)
+                dealDescription = DealDescription.小智插件手动更新;
+            else if (importModel.structuredResumeDetail.importType == 3 && physicalSourceId == 0)
+                dealDescription = DealDescription.小智插件自动更新;
+            else if (importModel.structuredResumeDetail.importType == 1 && physicalSourceId == 1)
+                dealDescription = DealDescription.嵌入式手动更新;
+            else if (importModel.structuredResumeDetail.importType == 3 && physicalSourceId == 1)
+                dealDescription = DealDescription.嵌入式自动更新;
+            var flag = (importModel.structuredResumeDetail.importType == 1 ||
+                        importModel.structuredResumeDetail.importType == 3)
+                ? 1
+                : 0;
+            var result = AddOrUpdateResume(importModel.structuredResumeDetail, importModel.employeeNo, companyId, flag,
+                importModel.structuredResumeDetail.repeatId, importFrom);
+            return result;
+        }
+
+        public StoreResult AddOrUpdateResume(StructuredResumeModel structuredResumeModel, string username, string companyId, int flag,
+            string resumeOldId = "", int importFrom = 0)
+        {
+            StoreResult result = new StoreResult();
+            var company = companyDb.GetCompanyById(companyId);
+            if (company == null)
+            {
+                result.Flag = 4;
+                result.Message = "公司不存在";
+                return result;
+            }
+
+            resumeDb = new ResumeDb(new ApplicationCommon().GetUserDBConnection(company));
+            userDb = new UserDb(new ApplicationCommon().GetUserDBConnection(company));
+
+            var user = userDb.GetUserByUsername(username);
+            if (user == null)
+            {
+                result.Flag = 4;
+                result.Message = "该账号不存在";
+                return result;
+            }
+
             //简历基础表
             var resumeModel = new ResumeModel();
             resumeModel.account = structuredResumeModel.basic.account;
@@ -63,13 +154,13 @@ namespace Resume
             resumeModel.gender = structuredResumeModel.basic.gender;
             resumeModel.graduate_date = structuredResumeModel.basic.graduate_date;
             resumeModel.htmlContent = structuredResumeModel.htmlContent;
-            //resumeModel.import_from=structuredResumeModel
+            resumeModel.import_from = importFrom;
             resumeModel.import_type = structuredResumeModel.importType.ToString();
             resumeModel.interests = structuredResumeModel.basic.interests;
             resumeModel.is_fertility = structuredResumeModel.basic.is_fertility;
             resumeModel.is_house = structuredResumeModel.basic.is_house;
-            resumeModel.last_updated_by = null;
-            resumeModel.last_updated_time = null;
+            resumeModel.last_updated_by = user.user_id;
+            resumeModel.last_updated_time = resumeModel.created_time;
             resumeModel.live_family = structuredResumeModel.basic.live_family;
             resumeModel.marital = structuredResumeModel.basic.marital;
             resumeModel.msn = structuredResumeModel.contact.msn;
@@ -83,7 +174,7 @@ namespace Resume
             resumeModel.political_status = structuredResumeModel.basic.political_status;
             resumeModel.qq = structuredResumeModel.contact.qq;
             resumeModel.resume_hideId = structuredResumeModel.basic.hidId;
-            resumeModel.resume_id = Guid.NewGuid().ToString();
+            resumeModel.resume_id = flag == 0 ? resumeOldId : Guid.NewGuid().ToString();
             resumeModel.resume_orginalId = structuredResumeModel.basic.id;
             resumeModel.resume_status = 0;
             resumeModel.resume_updated_at = string.IsNullOrWhiteSpace(structuredResumeModel.update_info.updated_at)
@@ -109,10 +200,9 @@ namespace Resume
             }
             resumeModel.tel = structuredResumeModel.contact.tel;
             resumeModel.ten = structuredResumeModel.contact.ten;
-            resumeModel.company_id = user.company_id;
             resumeModel.wechat = structuredResumeModel.contact.wechat;
             resumeModel.work_experience = structuredResumeModel.basic.work_experience;
-            
+
             //简历证书
             var certificateList = new List<ResumeCertificateModel>();
             if (structuredResumeModel.certificate != null)
@@ -257,25 +347,88 @@ namespace Resume
             {
                 if (string.IsNullOrEmpty(resumeOldId))
                 {
-                    return;
+                    result.Flag = 4;
+                    result.Message = "简历不存在";
+                    return result;
                 }
                 else
                 {
                     var oldResume = resumeDb.GetResumeById(resumeOldId);
                     if (oldResume == null)
                     {
-                        return;
+                        result.Flag = 4;
+                        result.Message = "简历不存在";
+                        return result;
+                    }
+                    resumeModel.created_by = oldResume.created_by;
+                    resumeModel.created_time = oldResume.created_time;
+                    resumeModel.last_updated_time = DateTime.Now;
+                    if (oldResume.last_updated_time.Value.AddDays(14) > resumeModel.last_updated_time.Value)
+                    {
+                        result.Flag = 3;
+                        result.Message = "重复简历更新时间在两周内，无法覆盖";
+                        result.ResumeId = resumeModel.resume_id;
+                        return result;
+                    }
+                    if (string.IsNullOrEmpty(resumeModel.name))
+                    {
+                        result.Flag = 1;
+                        result.Message = "姓名不能为空";
+                        return result;
+                    }
+                    if (string.IsNullOrEmpty(resumeModel.phone) && string.IsNullOrEmpty(resumeModel.email))
+                    {
+                        result.Flag = 2;
+                        result.Message = "手机和邮箱为空或格式错误";
+                        return result;
+                    }
+                    var dbReturn = resumeDb.UpdateResumeDetails(resumeModel, certificateList, educationList,
+                        languageList, projectList, skillList, trainList, workList);
+                    if (dbReturn)
+                    {
+                        result.Flag = 0;
+                        result.ResumeId = resumeModel.resume_id;
+                        result.Message = "简历覆盖成功";
+                        return result;
                     }
                     else
                     {
-                        resumeModel.oldResumeId = oldResume.resume_id;
+                        result.Flag = 5;
+                        result.Message = "异常";
+                        return result;
                     }
                 }
             }
             else
             {
-                
+                resumeDb.InsertResumeDetails(resumeModel, certificateList, educationList,
+                    languageList, projectList, skillList, trainList, workList);
+                return result;
             }
         }
+
+        #region
+
+        public enum DealDescription
+        {
+            自动合并 = 0,
+            小智插件手动更新 = 1,
+            小智插件自动更新 = 2,
+            嵌入式手动更新 = 3,
+            嵌入式自动更新 = 4,
+            无忧ftp同步 = 5,
+            智联ftp同步 = 6,
+            单份上传 = 7,
+            粘贴上传 = 8,
+            批量上传 = 9,
+            编辑简历基本信息 = 10,
+            内部推荐 = 11,
+            集团官网投递 = 12,
+            手动合并 = 13
+
+        }
+
+        #endregion
+
     }
 }

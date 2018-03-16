@@ -307,6 +307,128 @@ namespace DatabaseService.ResumeService
 
         #endregion
 
+        /// <summary>
+        /// 更新简历
+        /// </summary>
+        /// <param name="resume"></param>
+        /// <param name="certificateList"></param>
+        /// <param name="educationList"></param>
+        /// <param name="languageList"></param>
+        /// <param name="projectList"></param>
+        /// <param name="skillList"></param>
+        /// <param name="trainingList"></param>
+        /// <param name="workList"></param>
+        /// <returns></returns>
+        public bool UpdateResumeDetails(ResumeModel resume, List<ResumeCertificateModel> certificateList,
+            List<ResumeEducationModel> educationList, List<ResumeLanguageModel> languageList,
+            List<ResumeProjectModel> projectList, List<ResumeSkillModel> skillList,
+            List<ResumeTrainingModel> trainingList, List<ResumeWorkExperienceModel> workList)
+        {
+            try
+            {
+                //删除简历附件
+                DeleteResumeCertificateById(resume.resume_id);
+                DeleteResumeEducationById(resume.resume_id);
+                DeleteResumeLanguageById(resume.resume_id);
+                DeleteResumeProjectById(resume.resume_id);
+                DeleteResumeSkillById(resume.resume_id);
+                DeleteResumeTrainingById(resume.resume_id);
+                DeleteResumeWorkById(resume.resume_id);
+                //是否要保留历史记录
+                //更新简历
+                UpdateResume(resume);
+                if (certificateList.Count > 0)
+                {
+                    AddResumeCertificate(certificateList);
+                }
+                if (educationList.Count > 0)
+                {
+                    AddResumeEducation(educationList);
+                }
+                if (languageList.Count > 0)
+                {
+                    AddResumeLanguage(languageList);
+                }
+                if (projectList.Count > 0)
+                {
+                    AddResumeProject(projectList);
+                }
+                if (skillList.Count > 0)
+                {
+                    AddResumeSkill(skillList);
+                }
+                if (trainingList.Count > 0)
+                {
+                    AddResumeTraining(trainingList);
+                }
+                if (workList.Count > 0)
+                {
+                    AddResumeWork(workList);
+                }
+                return true;
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// 新增简历
+        /// </summary>
+        /// <param name="resume"></param>
+        /// <param name="certificateList"></param>
+        /// <param name="educationList"></param>
+        /// <param name="languageList"></param>
+        /// <param name="projectList"></param>
+        /// <param name="skillList"></param>
+        /// <param name="trainingList"></param>
+        /// <param name="workList"></param>
+        /// <returns></returns>
+        public bool InsertResumeDetails(ResumeModel resume, List<ResumeCertificateModel> certificateList,
+            List<ResumeEducationModel> educationList, List<ResumeLanguageModel> languageList,
+            List<ResumeProjectModel> projectList, List<ResumeSkillModel> skillList,
+            List<ResumeTrainingModel> trainingList, List<ResumeWorkExperienceModel> workList)
+        {
+            try
+            {
+                AddResume(resume);
+                if (certificateList.Count > 0)
+                {
+                    AddResumeCertificate(certificateList);
+                }
+                if (educationList.Count > 0)
+                {
+                    AddResumeEducation(educationList);
+                }
+                if (languageList.Count > 0)
+                {
+                    AddResumeLanguage(languageList);
+                }
+                if (projectList.Count > 0)
+                {
+                    AddResumeProject(projectList);
+                }
+                if (skillList.Count > 0)
+                {
+                    AddResumeSkill(skillList);
+                }
+                if (trainingList.Count > 0)
+                {
+                    AddResumeTraining(trainingList);
+                }
+                if (workList.Count > 0)
+                {
+                    AddResumeWork(workList);
+                }
+                return true;
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
+        }
+
 
     }
 }

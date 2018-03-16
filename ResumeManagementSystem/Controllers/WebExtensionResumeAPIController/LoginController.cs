@@ -57,7 +57,6 @@ namespace ResumeManagementSystem.Controllers.WebExtensionResumeAPIController
             apiReturn.Flag = 0;
             apiReturn.Result = company.company_id;
             return JsonConvert.SerializeObject(apiReturn);
-            return Newtonsoft.Json.JsonConvert.SerializeObject("ResultError");
         }
 
         [System.Web.Http.HttpGet]

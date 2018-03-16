@@ -210,5 +210,39 @@ namespace DatabaseInterface.ResumeInterface
 
         #endregion
 
+        /// <summary>
+        /// 更新简历
+        /// </summary>
+        /// <param name="resume"></param>
+        /// <param name="certificateList"></param>
+        /// <param name="educationList"></param>
+        /// <param name="languageList"></param>
+        /// <param name="projectList"></param>
+        /// <param name="skillList"></param>
+        /// <param name="trainingList"></param>
+        /// <param name="workList"></param>
+        /// <returns></returns>
+        bool UpdateResumeDetails(ResumeModel resume, List<ResumeCertificateModel> certificateList,
+            List<ResumeEducationModel> educationList, List<ResumeLanguageModel> languageList,
+            List<ResumeProjectModel> projectList, List<ResumeSkillModel> skillList,
+            List<ResumeTrainingModel> trainingList, List<ResumeWorkExperienceModel> workList);
+
+        /// <summary>
+        /// 新增简历
+        /// </summary>
+        /// <param name="resume"></param>
+        /// <param name="certificateList"></param>
+        /// <param name="educationList"></param>
+        /// <param name="languageList"></param>
+        /// <param name="projectList"></param>
+        /// <param name="skillList"></param>
+        /// <param name="trainingList"></param>
+        /// <param name="workList"></param>
+        /// <returns></returns>
+        bool InsertResumeDetails(ResumeModel resume, List<ResumeCertificateModel> certificateList,
+            List<ResumeEducationModel> educationList, List<ResumeLanguageModel> languageList,
+            List<ResumeProjectModel> projectList, List<ResumeSkillModel> skillList,
+            List<ResumeTrainingModel> trainingList, List<ResumeWorkExperienceModel> workList);
+
     }
 }

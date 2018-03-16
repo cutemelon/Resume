@@ -145,6 +145,7 @@ namespace ResumeManagementSystem.Controllers
         {
             try
             {
+                userDb = new UserDb(CurrentUserConnectionInfo);
                 var user = userDb.GetUserById(userId);
                 if (user == null)
                 {

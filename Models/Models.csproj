@@ -48,7 +48,10 @@
     <Compile Include="Api\RelationResumeModel.cs" />
     <Compile Include="Api\SearchModel.cs" />
     <Compile Include="Api\SearchReturnEntity.cs" />
+    <Compile Include="Api\StoreResult.cs" />
     <Compile Include="Api\StructuredResumeModel.cs" />
+    <Compile Include="Api\StructuredImportModel.cs" />
+    <Compile Include="Api\ThirdSite.cs" />
     <Compile Include="BaseEntity.cs" />
     <Compile Include="Common\ReturnListModel.cs" />
     <Compile Include="Common\ReturnModel.cs" />

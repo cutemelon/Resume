@@ -2,7 +2,7 @@
 
 namespace Models.Api
 {
-    public class StructuredResumeModel
+    public class StructuredResumeModel : ApiBaseEntity
     {
         /// <summary>
         /// 更新信息

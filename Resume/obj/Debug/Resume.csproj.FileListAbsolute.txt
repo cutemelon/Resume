@@ -66,3 +66,5 @@ E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\Resume\obj\Debug\Resume
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\Resume\obj\Debug\Resume.pdb
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\Resume\bin\Debug\Extensions.dll
 E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\Resume\bin\Debug\Extensions.pdb
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\Resume\bin\Debug\ApiManage.dll
+E:\Project\98 WebExtensions(Private)\ResumeManage\Resume\Resume\bin\Debug\ApiManage.pdb

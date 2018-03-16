@@ -20,7 +20,7 @@ namespace Models.Resume
         public DateTime created_time { get; set; }
         public string last_updated_by { get; set; }
         public DateTime? last_updated_time { get; set; }
-        public string import_from { get; set; }
+        public int import_from { get; set; }
         public string import_type { get; set; }
         public DateTime? resume_updated_at { get; set; }
         public string phone { get; set; }
