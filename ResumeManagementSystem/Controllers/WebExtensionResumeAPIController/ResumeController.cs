@@ -20,7 +20,7 @@ namespace ResumeManagementSystem.Controllers.WebExtensionResumeAPIController
         /// </summary>
         /// <param name="importModel"></param>
         /// <returns></returns>
-        [System.Web.Http.HttpGet]
+        [System.Web.Http.HttpPost]
         public string StructuredImportResume([FromBody] StructuredImportModel importModel)
         {
             var errorModel = new ErrorModel();
@@ -45,7 +45,7 @@ namespace ResumeManagementSystem.Controllers.WebExtensionResumeAPIController
             }
         }
 
-        [System.Web.Http.HttpGet]
+        [System.Web.Http.HttpPost]
         public string ResultError()
         {
             return "ResultError";
@@ -62,8 +62,48 @@ namespace ResumeManagementSystem.Controllers.WebExtensionResumeAPIController
         [System.Web.Http.HttpPost]
         public string HubbleSearchers([FromBody] SearchModel searchData)
         {
-            return JsonPageResult(new JavaScriptSerializer().Serialize(
-                new {Flag = 0, Info = string.Empty, Result = new List<SearchReturnEntity>()}));
+            var errorModel = new ErrorModel();
+            try
+            {
+                var resumeEntity = new ResumeSearchEntity();
+                resumeEntity.Birth = searchData.birthday;
+                resumeEntity.CandidateName = searchData.name;
+                resumeEntity.Cities = searchData.cities;
+                resumeEntity.Company = searchData.company;
+                resumeEntity.Email = searchData.email;
+                resumeEntity.EmployeeNo = searchData.employeeNo;
+                resumeEntity.ExtId = searchData.identity;
+                resumeEntity.ExtraDatas = new ExtraDatas();
+                if (searchData.extraDatas != null)
+                {
+                    resumeEntity.ExtraDatas.HidResumeId = searchData.extraDatas.resumeId;
+                    resumeEntity.ExtraDatas.ResumeUserId = searchData.extraDatas.resumeUserId;
+                    resumeEntity.ExtraDatas.UserName = searchData.extraDatas.userName;
+                }
+                resumeEntity.GraduateYear = searchData.graduateYear;
+                resumeEntity.Mobile = searchData.mobile;
+                resumeEntity.MobileLast = searchData.mobileLast;
+                resumeEntity.Registry = searchData.registry;
+                resumeEntity.School = searchData.school;
+                resumeEntity.SearchType = (string.IsNullOrWhiteSpace(searchData.mobile) &&
+                                           string.IsNullOrWhiteSpace(searchData.email))
+                    ? 0
+                    : 1;
+                resumeEntity.Sex = searchData.sex;
+                resumeEntity.SiteCode = searchData.siteCode;
+                resumeEntity.UserIp = "";
+                resumeEntity.UserBrowser = searchData.p_browser + " " + searchData.p_version;
+                resumeEntity.token = searchData.token;
+                var returnContent = new ResumeManage().ResumeSearch(resumeEntity);
+                return JsonPageResult(returnContent);
+            }
+            catch (Exception e)
+            {
+                errorModel.Flag = 4;
+                errorModel.Info = "接口异常！请联系管理员！";
+                errorModel.Result = "";
+                return JsonPageResult(Newtonsoft.Json.JsonConvert.SerializeObject(errorModel));
+            }
         }
 
         /// <summary>

@@ -76,5 +76,20 @@ namespace ApiManage
             companyId = System.Text.Encoding.Default.GetString(companyIdBytes);
             return companyId;
         }
+
+        /// <summary>
+        /// 获得TOKEN中的用户名
+        /// </summary>
+        /// <param name="token"></param>
+        /// <returns></returns>
+        public string GetUserName(string token)
+        {
+            token = token.Replace("[", "=");
+            var arry = token.Split(';');
+            var userName = "";
+            byte[] userNameBytes = Convert.FromBase64String(arry[0]);
+            userName = System.Text.Encoding.Default.GetString(userNameBytes);
+            return userName;
+        }
     }
 }

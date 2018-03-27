@@ -429,6 +429,29 @@ namespace DatabaseService.ResumeService
             }
         }
 
+        /// <summary>
+        /// 搜索简历
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="name">简历姓名</param>
+        /// <returns></returns>
+        public List<ResumeModel> GetResumeByEasySearchConditional(string id, string name = "")
+        {
+            var where = "";
+            if (!string.IsNullOrEmpty(name))
+            {
+                where = string.Format(@" and name = '{0}'", name);
+            }
+            var sql = string.Format(@"select r.*,
+(select (w.corporation_name + ',')
+from resume_work_experience w
+where w.resume_id= r.resume_Id
+FOR xml path('')) as corporation_name_str
+from resume r
+where resume_orginalId = '{0}' {1}", id, where);
+            return _dataAccess.FetchListBySql<ResumeModel>(sql).ToList();
+        } 
+
 
     }
 }

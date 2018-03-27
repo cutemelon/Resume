@@ -327,17 +327,17 @@ namespace Models.Api
         /// <summary>
         /// 毕业院校
         /// </summary>
-        public string school = "";
+        public string school { get; set; }
 
         /// <summary>
         /// 年收入
         /// </summary>
-        public string current_salary = "";
+        public string current_salary { get; set; }
 
         /// <summary>
         /// 毕业时间
         /// </summary>
-        public string graduate_date = "";
+        public string graduate_date { get; set; }
     }
 
     public class WorkInfo

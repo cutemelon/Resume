@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.ConstrainedExecution;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Web.Script.Serialization;
 using ApiManage;
@@ -23,6 +24,11 @@ namespace Resume
         private ICompanyDb companyDb = new CompanyDb();
         private IUserDb userDb;
 
+        /// <summary>
+        /// 简历结构化入库
+        /// </summary>
+        /// <param name="importModel"></param>
+        /// <returns></returns>
         public string ImportStructured(StructuredImportModel importModel)
         {
             var reponseJson = string.Empty;
@@ -58,6 +64,14 @@ namespace Resume
             }
         }
 
+        /// <summary>
+        /// 简历结构化入库（导入前的操作）
+        /// </summary>
+        /// <param name="importModel"></param>
+        /// <param name="physicalSourceId"></param>
+        /// <param name="companyId"></param>
+        /// <param name="importFrom"></param>
+        /// <returns></returns>
         public StoreResult ImportStructuredResume(StructuredImportModel importModel, int physicalSourceId,
             string companyId, int importFrom)
         {
@@ -87,6 +101,16 @@ namespace Resume
             return result;
         }
 
+        /// <summary>
+        /// 简历结构化入库（新增或更新具体方法）
+        /// </summary>
+        /// <param name="structuredResumeModel"></param>
+        /// <param name="username"></param>
+        /// <param name="companyId"></param>
+        /// <param name="flag"></param>
+        /// <param name="resumeOldId"></param>
+        /// <param name="importFrom"></param>
+        /// <returns></returns>
         public StoreResult AddOrUpdateResume(StructuredResumeModel structuredResumeModel, string username, string companyId, int flag,
             string resumeOldId = "", int importFrom = 0)
         {
@@ -134,6 +158,10 @@ namespace Resume
                 }
             }
             resumeModel.can_buy = "1";
+            resumeModel.company_id = companyId;
+            resumeModel.resume_id = flag == 1 ? resumeOldId : Guid.NewGuid().ToString();
+            resumeModel.import_from = importFrom;
+            resumeModel.import_type = Convert.ToInt32(structuredResumeModel.importType);
             resumeModel.created_by = user.user_id;
             resumeModel.created_time = DateTime.Now;
             resumeModel.current_salary = structuredResumeModel.basic.current_salary;
@@ -154,8 +182,6 @@ namespace Resume
             resumeModel.gender = structuredResumeModel.basic.gender;
             resumeModel.graduate_date = structuredResumeModel.basic.graduate_date;
             resumeModel.htmlContent = structuredResumeModel.htmlContent;
-            resumeModel.import_from = importFrom;
-            resumeModel.import_type = structuredResumeModel.importType.ToString();
             resumeModel.interests = structuredResumeModel.basic.interests;
             resumeModel.is_fertility = structuredResumeModel.basic.is_fertility;
             resumeModel.is_house = structuredResumeModel.basic.is_house;
@@ -174,11 +200,10 @@ namespace Resume
             resumeModel.political_status = structuredResumeModel.basic.political_status;
             resumeModel.qq = structuredResumeModel.contact.qq;
             resumeModel.resume_hideId = structuredResumeModel.basic.hidId;
-            resumeModel.resume_id = flag == 0 ? resumeOldId : Guid.NewGuid().ToString();
             resumeModel.resume_orginalId = structuredResumeModel.basic.id;
             resumeModel.resume_status = 0;
             resumeModel.resume_updated_at = string.IsNullOrWhiteSpace(structuredResumeModel.update_info.updated_at)
-                ? (DateTime?) null
+                ? (DateTime?)null
                 : Convert.ToDateTime(structuredResumeModel.update_info.updated_at);
             resumeModel.resume_userId = structuredResumeModel.basic.resumeUserId;
             resumeModel.school = structuredResumeModel.basic.school;
@@ -193,6 +218,7 @@ namespace Resume
                         ? structuredResumeModel.src[i].ToString()
                         : ("," + structuredResumeModel.src[i].ToString());
                 }
+                resumeModel.src = srcString;
             }
             else
             {
@@ -401,14 +427,171 @@ namespace Resume
             }
             else
             {
-                resumeDb.InsertResumeDetails(resumeModel, certificateList, educationList,
+                var returnVal = resumeDb.InsertResumeDetails(resumeModel, certificateList, educationList,
                     languageList, projectList, skillList, trainList, workList);
-                return result;
+                if (returnVal)
+                {
+                    return result;
+                }
+                else
+                {
+                    result.Flag = 5;
+                    result.Message = "异常";
+                    return result;
+                }
             }
         }
 
+
+        public string ResumeSearch(ResumeSearchEntity entity)
+        {
+            var reponseJson = string.Empty;
+            var jsSerializer = new JavaScriptSerializer();
+            try
+            {
+                entity.EmployeeNo = string.IsNullOrEmpty(entity.EmployeeNo) ? "" : entity.EmployeeNo.Trim();
+                if (string.IsNullOrEmpty(entity.EmployeeNo))
+                {
+                    return jsSerializer.Serialize(new { Falg = 1, Info = "请登录", Result = "[]" });
+                }
+
+                var company = companyDb.GetCompanyById(new TokenManage().GetCompanyId(entity.token));
+                if (company == null)
+                {
+                    reponseJson = jsSerializer.Serialize(new { Flag = 4, Info = "公司不存在", Result = "[]" });
+                    return reponseJson;
+                }
+
+                resumeDb = new ResumeDb(new ApplicationCommon().GetUserDBConnection(company));
+                userDb = new UserDb(new ApplicationCommon().GetUserDBConnection(company));
+
+                var user = userDb.GetUserByUsername(new TokenManage().GetUserName(entity.token));
+                if (user == null)
+                {
+                    reponseJson = jsSerializer.Serialize(new { Flag = 4, Info = "该账号不存在", Result = "[]" });
+                    return reponseJson;
+                }
+
+
+                entity.Birth = string.IsNullOrEmpty(entity.Birth) ? "" : entity.Birth.Trim();
+                entity.Sex = string.IsNullOrEmpty(entity.Sex) ? "" : entity.Sex.Trim();
+                entity.School = string.IsNullOrEmpty(entity.School) ? "" : entity.School.Trim();
+                entity.CompanyAll = entity.Company;
+                entity.Company = string.IsNullOrEmpty(entity.Company) ? "" : Regex.Replace(entity.Company.Trim(), "有限|责任|公司|分公司|股份|集团|工作室|技术|软件|计算机|信息|科技|网络|系统", "");
+                entity.ExtId = string.IsNullOrEmpty(entity.ExtId) ? "" : entity.ExtId.Trim();
+                entity.SiteCode = string.IsNullOrEmpty(entity.SiteCode) ? "" : entity.SiteCode.Trim();
+                entity.CandidateName = string.IsNullOrEmpty(entity.CandidateName) ? "" : entity.CandidateName.Trim();
+                entity.Email = string.IsNullOrEmpty(entity.Email) ? "" : entity.Email.Trim();
+                entity.Mobile = string.IsNullOrEmpty(entity.Mobile) ? "" : entity.Mobile.Trim();
+                entity.MobileLast = string.IsNullOrEmpty(entity.MobileLast) ? "" : entity.MobileLast.Trim();
+                entity.GraduateYear = string.IsNullOrEmpty(entity.GraduateYear) ? "" : entity.GraduateYear.Trim();
+                entity.Cities = string.IsNullOrEmpty(entity.Cities) ? "" : entity.Cities.Trim();
+                entity.Registry = string.IsNullOrEmpty(entity.Registry) ? "" : entity.Registry.Trim();
+                entity.ExtraDatas.UserName = string.IsNullOrEmpty(entity.ExtraDatas.UserName) ? "" : entity.ExtraDatas.UserName.Trim();
+                entity.ExtraDatas.HidResumeId = string.IsNullOrEmpty(entity.ExtraDatas.HidResumeId) ? "" : entity.ExtraDatas.HidResumeId.Trim();
+                entity.ExtraDatas.ResumeUserId = string.IsNullOrEmpty(entity.ExtraDatas.ResumeUserId) ? "" : entity.ExtraDatas.ResumeUserId.Trim();
+                SiteEnum site = (SiteEnum)Convert.ToInt32(entity.SiteCode);
+
+                List<SearchReturnEntity> returnResult = SearchResumeBaseFunction(entity);
+                if (returnResult.Count == 0)
+                {
+                    reponseJson = jsSerializer.Serialize(new { Flag = (entity.SearchType == 0 ? 0 : 2), Info = string.Empty, Result = "[]" });
+                    return reponseJson;
+                }
+                if (entity.SearchType == 0)
+                {
+                    returnResult.ForEach(r => r.CanUpdate = false);
+                }
+                //var result = returnResult.Where(p => p.Score > 0f);
+                reponseJson = jsSerializer.Serialize(new { Flag = 0, Info = string.Empty, Result = returnResult });
+                return reponseJson;
+
+            }
+            catch (Exception ex)
+            {
+                reponseJson = jsSerializer.Serialize(new { Flag = 2, Info = ex.Message, Result = "[]" });//搜索异常
+                return reponseJson;
+            }
+
+        }
+
+
+        public List<SearchReturnEntity> SearchResumeBaseFunction(ResumeSearchEntity entity)
+        {
+            try
+            {
+                var candidateName = string.IsNullOrWhiteSpace(entity.CandidateName) ? "" : entity.CandidateName;
+                var list = resumeDb.GetResumeByEasySearchConditional(entity.ExtId, candidateName);
+                return RecombineResumeEntity(list, entity);
+            }
+            catch (Exception e)
+            {
+                return new List<SearchReturnEntity>();
+            }
+        }
+
+        public List<SearchReturnEntity> RecombineResumeEntity(List<ResumeModel> list, ResumeSearchEntity searchEntity)
+        {
+            try
+            {
+                var resultList = new List<SearchReturnEntity>();
+                foreach (var item in list)
+                {
+                    var resultEntity = new SearchReturnEntity();
+                    string workExpId = string.Empty;
+                    resultEntity.Plan = "C";
+                    resultEntity.TaskId = 0;//searchId;
+                    resultEntity.SEmployeeNo = searchEntity.EmployeeNo;
+                    resultEntity.SSource = (searchEntity.SearchType == 0 || searchEntity.SearchType == 1) ? "newplugin" : "browser";
+                    resultEntity.RResumeId = item.resume_id;
+                    resultEntity.SCandidateName = searchEntity.CandidateName;
+                    resultEntity.SUserName = searchEntity.ExtraDatas.UserName;
+                    resultEntity.RCandidateName = item.name;
+                    resultEntity.SEmail = searchEntity.Email;
+                    resultEntity.REmail = item.email;
+                    resultEntity.SMobile = searchEntity.Mobile;
+                    resultEntity.RMobile = item.phone;
+                    resultEntity.SMobileLast = searchEntity.MobileLast;
+                    resultEntity.SExtId = searchEntity.ExtId;
+                    resultEntity.SHidResumeId = searchEntity.ExtraDatas.HidResumeId;
+                    resultEntity.SResumeUserId = searchEntity.ExtraDatas.ResumeUserId;
+                    resultEntity.RSynResumeId = item.resume_orginalId;
+                    resultEntity.SSex = searchEntity.Sex;
+                    resultEntity.RSex = item.gender;
+                    resultEntity.SBirth = searchEntity.Birth;
+                    //resultEntity.RBirthNum = item.birth.ToString();
+                    resultEntity.SGraduateYear = searchEntity.GraduateYear;
+                    resultEntity.RGraduateYear = item.graduate_date;
+                    resultEntity.SSchool = searchEntity.School;
+                    resultEntity.RSchool = item.school;
+                    workExpId = Convert.IsDBNull(item.work_experience) ? "0" : item.work_experience.ToString();
+                    if (workExpId != "0")
+                    {
+                        resultEntity.RWorkExp = item.work_experience;//((ResumeWorkExp)Convert.ToInt32(workExpId)).ToString();
+                    }
+                    resultEntity.RHightestDegree = item.degree;
+                    resultEntity.SLabelContent = searchEntity.Company.Replace("$", " ");
+                    resultEntity.RLabelContent = item.corporation_name_str.TrimEnd(',');
+                    resultEntity.RLabelDetailContent = item.corporation_name_str.TrimEnd(',');
+                    //是否可以更新
+                    resultEntity.CanUpdate = false;//Convert.ToDateTime(item.last_updated_time).CompareTo(DateTime.Now.AddDays(-14)) == -1;
+                    resultEntity.Status = "1";//((ResumeStatus)Convert.ToInt32(dt.Rows[i]["ResumeStatus"])).ToString();
+                    resultList.Add(resultEntity);
+                }
+                return resultList;
+            }
+            catch (Exception)
+            {
+                return new List<SearchReturnEntity>();
+            }
+        }
+
+
         #region
 
+        /// <summary>
+        /// 简历合并
+        /// </summary>
         public enum DealDescription
         {
             自动合并 = 0,
@@ -426,6 +609,20 @@ namespace Resume
             集团官网投递 = 12,
             手动合并 = 13
 
+        }
+
+        /// <summary>
+        /// 简历来源
+        /// </summary>
+        public enum SiteEnum
+        {
+            ZhaoPin = 1,
+            WuYou = 2,
+            ZhongGuo = 3,
+            LiePin = 4,
+            ECheng = 6,
+            EChengRecommend = 7,
+            TongCheng = 8
         }
 
         #endregion

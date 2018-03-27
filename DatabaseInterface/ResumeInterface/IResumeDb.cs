@@ -244,5 +244,12 @@ namespace DatabaseInterface.ResumeInterface
             List<ResumeProjectModel> projectList, List<ResumeSkillModel> skillList,
             List<ResumeTrainingModel> trainingList, List<ResumeWorkExperienceModel> workList);
 
+        /// <summary>
+        /// 搜索简历
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        List<ResumeModel> GetResumeByEasySearchConditional(string id, string name = "");
+
     }
 }
