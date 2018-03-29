@@ -251,5 +251,12 @@ namespace DatabaseInterface.ResumeInterface
         /// <returns></returns>
         List<ResumeModel> GetResumeByEasySearchConditional(string id, string name = "");
 
+        /// <summary>
+        /// 获取简历列表
+        /// </summary>
+        /// <param name="startIndex"></param>
+        /// <param name="pageSize"></param>
+        /// <returns></returns>
+        List<ResumeModel> GetResumeList(out int count, string position = "", int startIndex = 1, int pageSize = int.MaxValue);
     }
 }

@@ -450,7 +450,24 @@ FOR xml path('')) as corporation_name_str
 from resume r
 where resume_orginalId = '{0}' {1}", id, where);
             return _dataAccess.FetchListBySql<ResumeModel>(sql).ToList();
-        } 
+        }
+
+        /// <summary>
+        /// 获取简历列表
+        /// </summary>
+        /// <param name="startIndex"></param>
+        /// <param name="pageSize"></param>
+        /// <param name="count"></param>
+        /// <returns></returns>
+        public List<ResumeModel> GetResumeList(out int count, string position, int startIndex = 1, int pageSize = int.MaxValue)
+        {
+            var where = " 1=1 ";
+            if (!string.IsNullOrWhiteSpace(position))
+            {
+                where += string.Format(" and expect_position_name like '%{0}%'", position);
+            }
+            return _dataAccess.GetEntities<ResumeModel>(out count, where, startIndex, pageSize, " created_time desc ").ToList();
+        }
 
 
     }
