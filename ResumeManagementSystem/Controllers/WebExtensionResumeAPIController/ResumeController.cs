@@ -13,7 +13,7 @@ namespace ResumeManagementSystem.Controllers.WebExtensionResumeAPIController
 {
     public class ResumeController : PageResult 
     {
-        private Resume.ResumeManage resumeManager = new Resume.ResumeManage();
+        //private Resume.ResumeManage resumeManager = new Resume.ResumeManage();
 
         /// <summary>
         /// 导入简历

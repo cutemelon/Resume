@@ -1,0 +1,147 @@
+﻿.portlet.light {
+    padding: 0px;
+}
+
+    .portlet.light .portlet-body {
+        padding-top: 0px;
+    }
+
+.portlet-body > .tab-content {
+    padding: 15px 20px;
+}
+
+.searchback {
+    background-color: #edf6fd;
+    border-radius: 3px !important;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+}
+
+.portlet > .portlet-title > .nav-tabs {
+    float: left;
+}
+
+.listStyle {
+    display: none;
+}
+
+#sample_1 tbody td {
+    padding: 0px;
+    border: 0;
+}
+
+#sample_1 > tbody > tr > td {
+    padding: 0px;
+    border: 0;
+}
+
+.portlet.box.blue-hoki > .portlet-title {
+    background-color: #edf6fd;
+}
+
+    .portlet.box.blue-hoki > .portlet-title > .caption {
+        color: #33444c;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+.portlet.box.blue-hoki {
+    border: 1px solid #edf6fd;
+}
+
+#sample_1.table-bordered {
+    border: 0px;
+}
+
+.portlet {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+    .portlet > .portlet-title {
+        min-height: 21px;
+    }
+
+.userpic {
+    margin-top: 20px;
+    margin-right: 21px;
+    height: 100px;
+    float: left;
+}
+
+.mt-checkbox-list {
+    padding: 20px 0;
+}
+
+.job-data1 {
+    font-size: 12px;
+    padding-top: 12px;
+    height: 32px;
+    line-height: 32px;
+    color: #666;
+}
+
+.job-data2 {
+    line-height: 24px;
+    height: 24px;
+    padding-bottom: 10px;
+    color: #ccd2de;
+}
+
+.job-exp {
+    padding-top: 8px;
+    line-height: 26px;
+    border-top: 1px dotted #dadddd;
+    color: #666;
+}
+
+.job-data1 a {
+    font-size: 16px;
+}
+
+.datail1 {
+    width: 3%;
+    float: left;
+}
+
+.datail2 {
+    width: 97%;
+    float: left;
+}
+
+.buttons {
+    text-align: right;
+    height: 24px;
+    padding: 0 0 20px 0;
+}
+
+.datailbtn {
+    height: 24px;
+    line-height: 22px;
+    padding: 0 1em;
+}
+
+.scroller {
+    padding: 0px;
+}
+
+.portlet.box > .portlet-body {
+    padding: 0px 15px 0 15px;
+}
+
+.portlet.box.blue-hoki > .portlet-title > .caption2 {
+    color: #33444c;
+    font-weight: bold;
+    font-size: 12px;
+    float: right;
+    padding: 11px 0 9px;
+    line-height: 18px;
+}
+
+span.photo {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px !important;
+    background-color: orange;
+}
