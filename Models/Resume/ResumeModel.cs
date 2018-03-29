@@ -21,7 +21,7 @@ namespace Models.Resume
         public string last_updated_by { get; set; }
         public DateTime? last_updated_time { get; set; }
         public int import_from { get; set; }
-        public string import_type { get; set; }
+        public int import_type { get; set; }
         public DateTime? resume_updated_at { get; set; }
         public string phone { get; set; }
         public string email { get; set; }
@@ -79,5 +79,12 @@ namespace Models.Resume
         public string htmlContent { get; set; }
         public string noHtmlContent { get; set; }
         public string oldResumeId { get; set; }
+
+        #region
+
+        [ExcludeField]
+        public string corporation_name_str { get; set; }
+
+        #endregion
     }
 }
