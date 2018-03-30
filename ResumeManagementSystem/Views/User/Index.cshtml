@@ -3,7 +3,7 @@
 }
 
 @section head{
-    
+
     <script type="text/javascript">
         var winDialog;
 
@@ -28,11 +28,11 @@
         }
 
         function AddNewUser() {
-            window.location.href = "@Url.Action("AddUser","User")";
+            window.location.href = "@Url.Action("AddUser", "User")";
         }
 
         function EditUser(userId) {
-            window.location.href = "@Url.Action("AddUser","User")?userId=" + userId;
+            window.location.href = "@Url.Action("AddUser", "User")?userId=" + userId;
         }
 
         function FreezeUser(userId, type) {
@@ -44,9 +44,9 @@
                 max: false,
                 min: false,
                 okVal: "是",
-                cancelVal:"否",
-                ok: function() {
-                    $.post('@Url.Action("UserOperation")?type=' + type + '&userId=' + userId, function(data) {
+                cancelVal: "否",
+                ok: function () {
+                    $.post('@Url.Action("UserOperation")?type=' + type + '&userId=' + userId, function (data) {
                         if (data.result == 1) {
                             showDialog(data.msg);
                             winDialog.close();
@@ -56,7 +56,7 @@
                         }
                     });
                 },
-                cancel:function() {
+                cancel: function () {
                     winDialog.close();
                 }
             });
@@ -122,13 +122,13 @@
     <div style="margin-top: 10px">
         <div>
             <label>账户名 :</label>
-            <input type="text" name="userName" id="userName" maxlength="20" style="width: 100px"/>
+            <input type="text" name="userName" id="userName" maxlength="20" style="width: 100px" />
         </div>
     </div>
     <div style="margin-top: 10px">
         <div>
             <label>姓名 :</label>
-            <input type="text" name="realName" id="realName" maxlength="20" style="width: 100px"/>
+            <input type="text" name="realName" id="realName" maxlength="20" style="width: 100px" />
         </div>
     </div>
     <div style="margin-top: 10px">

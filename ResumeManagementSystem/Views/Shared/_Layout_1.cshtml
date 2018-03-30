@@ -1,6 +1,9 @@
 ﻿@{
     Layout = null;
 }
+@{
+    ViewBag.Title = "ResumeDetail";
+}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,119 +37,6 @@
     <link href="~/Scripts/metronic/assets/layouts/layout3/css/themes/default.min.css" rel="stylesheet" type="text/css" id="style_color" />
     <link href="~/Scripts/metronic/assets/layouts/layout3/css/custom.min.css" rel="stylesheet" type="text/css" />
     <!-- END THEME LAYOUT STYLES -->
-    <link rel="shortcut icon" href="favicon.ico" />
-    <!-- style START -->
-
-    <link href="~/Css/style.css" rel="stylesheet">
-    <link href="~/Css/discuz.css" rel="stylesheet" type="text/css">
-
-    
-    <!-- BEGIN CORE PLUGINS -->
-    <script src="~/Scripts/metronic/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
-    <!-- END CORE PLUGINS -->
-    <!-- BEGIN PAGE LEVEL PLUGINS -->
-
-    <script src="~/Scripts/metronic/assets/global/plugins/moment.min.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/global/plugins/bootstrap-daterangepicker/daterangepicker.min.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/global/plugins/morris/morris.min.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/global/plugins/morris/raphael-min.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/global/plugins/counterup/jquery.waypoints.min.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/global/plugins/counterup/jquery.counterup.min.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/global/plugins/fullcalendar/fullcalendar.min.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/global/plugins/flot/jquery.flot.min.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/global/plugins/flot/jquery.flot.resize.min.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/global/plugins/flot/jquery.flot.categories.min.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/global/plugins/jquery-easypiechart/jquery.easypiechart.min.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/global/plugins/jquery.sparkline.min.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/global/plugins/jqvmap/jqvmap/jquery.vmap.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.russia.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.world.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.europe.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.germany.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.usa.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/global/plugins/jqvmap/jqvmap/data/jquery.vmap.sampledata.js" type="text/javascript"></script>
-
-    <script src="~/Scripts/metronic/assets/global/scripts/datatable.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/global/plugins/datatables/datatables.min.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js" type="text/javascript"></script>
-    <!-- END PAGE LEVEL PLUGINS -->
-    <!-- BEGIN THEME GLOBAL SCRIPTS -->
-    <script src="~/Scripts/metronic/assets/global/scripts/app.min.js" type="text/javascript"></script>
-    <!-- END THEME GLOBAL SCRIPTS -->
-    <!-- BEGIN PAGE LEVEL SCRIPTS -->
-
-    <script src="~/Scripts/metronic/assets/pages/scripts/dashboard.min.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/pages/scripts/table-datatables-responsive.min.js" type="text/javascript"></script>
-    <!-- END PAGE LEVEL SCRIPTS -->
-    <!-- BEGIN THEME LAYOUT SCRIPTS -->
-    <script src="~/Scripts/metronic/assets/layouts/layout3/scripts/layout.min.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/layouts/layout3/scripts/demo.min.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
-    <script src="~/Scripts/metronic/assets/layouts/global/scripts/quick-nav.min.js" type="text/javascript"></script>
-    <!-- END THEME LAYOUT SCRIPTS -->
-    <script type="text/javascript" src="~/Scripts/common.js"> </script>
-    <script type="text/javascript" src="~/Scripts/jsrender.js"> </script>
-    <script type="text/javascript" src="~/Scripts/jquery.pagination.js"> </script>
-    <script type="text/javascript" src="~/Scripts/extend.js"> </script>
-    <script type="text/javascript" src="~/Scripts/lhgdialog.min.js?self=true&skin=discuz"> </script>
-
-    <style>
-        body {
-            font-size: 12px;
-            font: 12px/1.5 "microsoft yahei", Arial, sans-serif;
-            line-height: 1.5;
-            color: #33444c;
-        }
-
-        .hor-menu {
-            float: right !important;
-        }
-
-
-        .page-header .page-header-top .top-menu .navbar-nav > li.dropdown-inbox > .dropdown-menu .dropdown-menu-list > li .subject {
-            display: block;
-            margin-left: 16px;
-        }
-
-        .page-header .page-header-top .top-menu .navbar-nav > li.dropdown-inbox > .dropdown-menu .dropdown-menu-list > li .message {
-            display: block!important;
-            font-size: 12px;
-            line-height: 1.3;
-            margin-left: 16px;
-        }
-    </style>
-    <!-- style START -->
-    <script type="text/javascript">
-        $(function () {
-            var Accordion = function (el, multiple) {
-                this.el = el || {};
-                this.multiple = multiple || false;
-                var links = this.el.find('.link');
-                links.on('click', { el: this.el, multiple: this.multiple }, this.dropdown);
-            }
-
-            Accordion.prototype.dropdown = function (e) {
-                var $el = e.data.el;
-                $this = $(this),
-                $next = $this.next();
-
-                $next.slideToggle();
-                $this.parent().toggleClass('open');
-
-                if (!e.data.multiple) {
-                    $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
-                };
-            }
-
-            var accordion = new Accordion($('#accordion'), false);
-        });
-    </script>
-
     @RenderSection("head", false)
 </head>
 <!-- END HEAD -->
@@ -203,10 +93,10 @@
                                                                 <!--                                                                    <img src="~/Scripts/metronic/assets/layouts/layout3/img/avatar3.jpg" class="img-circle" alt=""> -->
                                                             </span>
                                                             <span class="subject">
-                                                                <span class="from">Richard Doe </span>
-                                                                <span class="time">16 mins </span>
+                                                                <span class="from">个人认证通知 </span>
+                                                                <span class="time">01-30 </span>
                                                             </span>
-                                                            <span class="message">Vivamus sed congue nibh auctor nibh congue nibh. auctor nibh auctor nibh... </span>
+                                                            <span class="message">尊敬的HR，您好！恭喜您已经完成实名认证，感谢您的支持！ </span>
                                                         </a>
                                                     </li>
                                                     <li>
@@ -215,10 +105,10 @@
                                                                 <!--                                                                    <img src="~/Scripts/metronic/assets/layouts/layout3/img/avatar1.jpg" class="img-circle" alt=""> -->
                                                             </span>
                                                             <span class="subject">
-                                                                <span class="from">Bob Nilson </span>
-                                                                <span class="time">2 hrs </span>
+                                                                <span class="from">个人认证通知 </span>
+                                                                <span class="time">01-30 </span>
                                                             </span>
-                                                            <span class="message">Vivamus sed nibh auctor nibh congue nibh. auctor nibh auctor nibh... </span>
+                                                            <span class="message">尊敬的HR，您好！恭喜您已经完成实名认证，感谢您的支持！ </span>
                                                         </a>
                                                     </li>
                                                     <li>
@@ -227,10 +117,10 @@
                                                                 <!--                                                                    <img src="~/Scripts/metronic/assets/layouts/layout3/img/avatar2.jpg" class="img-circle" alt=""> -->
                                                             </span>
                                                             <span class="subject">
-                                                                <span class="from">Lisa Wong </span>
-                                                                <span class="time">40 mins </span>
+                                                                <span class="from">个人认证通知 </span>
+                                                                <span class="time">01-30 </span>
                                                             </span>
-                                                            <span class="message">Vivamus sed auctor 40% nibh congue nibh... </span>
+                                                            <span class="message">尊敬的HR，您好！恭喜您已经完成实名认证，感谢您的支持！ </span>
                                                         </a>
                                                     </li>
                                                     <li>
@@ -239,10 +129,10 @@
                                                                 <!--                                                                    <img src="~/Scripts/metronic/assets/layouts/layout3/img/avatar3.jpg" class="img-circle" alt=""> -->
                                                             </span>
                                                             <span class="subject">
-                                                                <span class="from">Richard Doe </span>
-                                                                <span class="time">46 mins </span>
+                                                                <span class="from">个人认证通知 </span>
+                                                                <span class="time">01-30 </span>
                                                             </span>
-                                                            <span class="message">Vivamus sed congue nibh auctor nibh congue nibh. auctor nibh auctor nibh... </span>
+                                                            <span class="message">尊敬的HR，您好！恭喜您已经完成实名认证，感谢您的支持！ </span>
                                                         </a>
                                                     </li>
                                                 </ul>
@@ -301,74 +191,6 @@
                         </div>
                     </div>
                     <!-- END HEADER TOP -->
-                    <!-- BEGIN HEADER MENU -->
-                    <div class="page-header-menu">
-                        <div class="container">
-                            <!-- BEGIN HEADER SEARCH BOX
-                                <form class="search-form" action="page_general_search.html" method="GET">
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="Search" name="query">
-                                        <span class="input-group-btn">
-                                            <a href="javascript:;" class="btn submit">
-                                                <i class="icon-magnifier"></i>
-                                            </a>
-                                        </span>
-                                    </div>
-                                </form>
-                                 END HEADER SEARCH BOX -->
-                            <!-- BEGIN MEGA MENU -->
-                            <!-- DOC: Apply "hor-menu-light" class after the "hor-menu" class below to have a horizontal menu with white background -->
-                            <!-- DOC: Remove data-hover="dropdown" and data-close-others="true" attributes below to disable the dropdown opening on mouse hover -->
-                            <div class="hor-menu  ">
-                                <ul class="nav navbar-nav">
-                                    <li class="menu-dropdown classic-menu-dropdown active">
-                                        <a href="javascript:;">首页
-                                                <span class="arrow"></span>
-                                        </a>
-
-                                    </li>
-                                    <li class="menu-dropdown classic-menu-dropdown ">
-                                        <a href="@Url.Action("Index", "User")">人员管理
-                                                <span class="arrow"></span>
-                                        </a>
-
-                                    </li>
-                                    <li class="menu-dropdown mega-menu-dropdown  ">
-                                        <a href="javascript:;">发职位
-                                                <span class="arrow"></span>
-                                        </a>
-
-                                    </li>
-                                    <li class="menu-dropdown classic-menu-dropdown ">
-                                        <a href="javascript:;">职位管理
-                                                <span class="arrow"></span>
-                                        </a>
-
-                                    </li>
-                                    <li class="menu-dropdown mega-menu-dropdown  mega-menu-full">
-                                        <a href="@Url.Action("Index", "Resume")">简历管理
-                                                <span class="arrow"></span>
-                                        </a>
-
-                                    </li>
-                                    <li class="menu-dropdown classic-menu-dropdown ">
-                                        <a href="javascript:;">猎头服务
-                                                <span class="arrow"></span>
-                                        </a>
-
-                                    </li>
-                                    <li class="menu-dropdown classic-menu-dropdown ">
-                                        <a href="javascript:;">专业服务
-                                                <span class="arrow"></span>
-                                        </a>
-
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- END MEGA MENU -->
-                        </div>
-                    </div>
-                    <!-- END HEADER MENU -->
                 </div>
                 <!-- END HEADER -->
             </div>
@@ -377,6 +199,7 @@
             <div class="page-wrapper-middle">
                 <!-- BEGIN CONTAINER -->
                 <div class="page-container">
+                    <!-- BEGIN CONTENT -->
                     @RenderBody()
                     <!-- BEGIN QUICK SIDEBAR -->
                     <a href="javascript:;" class="page-quick-sidebar-toggler">
@@ -1040,10 +863,137 @@
             </div>
         </div>
     </div>
-    <!--[if lt IE 9]>
-<script src="~/Scripts/metronic/assets/global/plugins/respond.min.js"></script>
-<script src="~/Scripts/metronic/assets/global/plugins/excanvas.min.js"></script> 
-<script src="~/Scripts/metronic/assets/global/plugins/ie8.fix.min.js"></script> 
-<![endif]-->
+    <!-- BEGIN QUICK NAV -->
+    <div class="assistant">
+        <ul>
+            <li>
+                <a href="#" target="_blank" class="active">
+                    <i class="icon-basket"></i>
+                    <p>保存简历</p>
+                </a>
+                <hr>
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    <i class="icon-users"></i>
+                    <p>转发简历</p>
+                </a>
+                <hr>
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    <i class="icon-user"></i>
+                    <p>简历备注</p>
+                </a>
+                <hr>
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    <i class="icon-graph"></i>
+                    <p>收藏简历</p>
+                </a>
+                <hr>
+            </li>
+            <li>
+                <a href="#" target="_blank" class="active">
+                    <i class="icon-basket"></i>
+                    <p>举报简历</p>
+                </a>
+                <hr>
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    <i class="icon-users"></i>
+                    <p>打印简历</p>
+                </a>
+                <hr>
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    <i class="icon-user"></i>
+                    <p>立即沟通</p>
+
+                </a>
+                <hr>
+            </li>
+            <li>
+                <a href="#" target="_blank">
+                    <i class="icon-graph"></i>
+                    <p>相似简历</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- END QUICK NAV -->
+    <!-- BEGIN CORE PLUGINS -->
+    <script src="~/Scripts/metronic/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+    <!-- END CORE PLUGINS -->
+    <!-- BEGIN PAGE LEVEL PLUGINS -->
+    <script src="~/Scripts/metronic/assets/global/plugins/amcharts/amcharts/amcharts.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/amcharts/amcharts/serial.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/amcharts/amcharts/pie.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/amcharts/amcharts/radar.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/amcharts/amcharts/themes/light.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/amcharts/amcharts/themes/patterns.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/amcharts/amcharts/themes/chalk.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/amcharts/ammap/ammap.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/amcharts/ammap/maps/js/worldLow.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/amcharts/amstockcharts/amstock.js" type="text/javascript"></script>
+    <!-- END PAGE LEVEL PLUGINS -->
+    <!-- BEGIN PAGE LEVEL PLUGINS -->
+
+    <script src="~/Scripts/metronic/assets/global/plugins/moment.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/bootstrap-daterangepicker/daterangepicker.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/morris/morris.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/morris/raphael-min.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/counterup/jquery.waypoints.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/counterup/jquery.counterup.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/fullcalendar/fullcalendar.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/flot/jquery.flot.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/flot/jquery.flot.resize.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/flot/jquery.flot.categories.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/jquery-easypiechart/jquery.easypiechart.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/jquery.sparkline.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/jqvmap/jqvmap/jquery.vmap.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.russia.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.world.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.europe.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.germany.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/jqvmap/jqvmap/maps/jquery.vmap.usa.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/jqvmap/jqvmap/data/jquery.vmap.sampledata.js" type="text/javascript"></script>
+
+
+    <script src="~/Scripts/metronic/assets/global/plugins/jquery-knob/js/jquery.knob.js" type="text/javascript"></script>
+
+    <script src="~/Scripts/metronic/assets/global/scripts/datatable.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/datatables/datatables.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js" type="text/javascript"></script>
+    <!-- END PAGE LEVEL PLUGINS -->
+    <!-- BEGIN THEME GLOBAL SCRIPTS -->
+    <script src="~/Scripts/metronic/assets/global/scripts/app.min.js" type="text/javascript"></script>
+    <!-- END THEME GLOBAL SCRIPTS -->
+    <!-- BEGIN PAGE LEVEL SCRIPTS -->
+    <script src="~/Scripts/metronic/assets/pages/scripts/charts-amcharts.min.js" type="text/javascript"></script>
+    <!-- END PAGE LEVEL SCRIPTS -->
+    <!-- BEGIN PAGE LEVEL SCRIPTS -->
+
+    <script src="~/Scripts/metronic/assets/pages/scripts/components-knob-dials.min.js" type="text/javascript"></script>
+
+    <script src="~/Scripts/metronic/assets/pages/scripts/dashboard.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/pages/scripts/table-datatables-responsive.min.js" type="text/javascript"></script>
+    <!-- END PAGE LEVEL SCRIPTS -->
+    <!-- BEGIN THEME LAYOUT SCRIPTS -->
+    <script src="~/Scripts/metronic/assets/layouts/layout3/scripts/layout.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/layouts/layout3/scripts/demo.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/metronic/assets/layouts/global/scripts/quick-nav.min.js" type="text/javascript"></script>
+    <!-- END THEME LAYOUT SCRIPTS -->
+    <script src="~/Scripts/Resume/ResumeDetail.js" type="text/javascript"></script>
 </body>
 </html>
+
